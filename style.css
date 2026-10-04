@@ -205,3 +205,25 @@ a { color: var(--accent); }
 .notes li { margin-bottom: 6px; }
 
 .source { font-size: .9rem; color: var(--muted); }
+
+/* Macro pe porție */
+.macro-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(96px, 1fr));
+  gap: 10px;
+}
+.macro {
+  background: var(--bg);
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  padding: 12px;
+  text-align: center;
+}
+.macro strong {
+  display: block;
+  font-size: 1.25rem;
+  font-variant-numeric: tabular-nums;
+}
+.macro span { color: var(--muted); font-size: .85rem; }
+.macro.kcal { background: var(--accent-soft); border-color: transparent; }
+.macro-note { color: var(--muted); font-size: .85rem; margin: 12px 0 0; }

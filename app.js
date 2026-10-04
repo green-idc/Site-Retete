@@ -140,6 +140,19 @@ function renderRecipe(id) {
             <ul>${r.notes.map((n) => `<li>${esc(n)}</li>`).join("")}</ul>
           </div>` : ""}
 
+        ${r.nutrition ? `
+          <div class="panel macros" style="margin-top:24px">
+            <h2>Valori nutriționale pe porție</h2>
+            <div class="macro-grid">
+              <div class="macro kcal"><strong>${r.nutrition.kcal}</strong><span>kcal</span></div>
+              <div class="macro"><strong>${r.nutrition.protein} g</strong><span>proteine</span></div>
+              <div class="macro"><strong>${r.nutrition.carbs} g</strong><span>carbohidrați</span></div>
+              <div class="macro"><strong>${r.nutrition.fat} g</strong><span>grăsimi</span></div>
+              ${r.nutrition.fiber != null ? `<div class="macro"><strong>${r.nutrition.fiber} g</strong><span>fibre</span></div>` : ""}
+            </div>
+            ${r.nutrition.note ? `<p class="macro-note">${esc(r.nutrition.note)} Valori estimative.</p>` : `<p class="macro-note">Valori estimative.</p>`}
+          </div>` : ""}
+
         ${r.source ? `
           <p class="source">Sursă: <a href="${esc(r.source.url)}" target="_blank" rel="noopener">${esc(r.source.name)}</a></p>` : ""}
       </section>
