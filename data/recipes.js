@@ -4,8 +4,97 @@
   și pune "category" pe una dintre: pui, vita, porc, deserturi, deserturi-healthy.
   Cantitățile (qty) se scalează automat când schimbi numărul de porții.
   Dacă un ingredient nu are cantitate (ex. „după gust”), lasă qty: null.
+  "nutrition" = valori pe o porție (kcal, proteine, carbohidrați, grăsimi, fibre în grame).
 */
 window.RECIPES = [
+  {
+    id: "kebab-pui-la-cuptor",
+    category: "pui",
+    title: "Kebab suculent de pui la cuptor",
+    description: "Carne tocată de pui condimentată, coaptă într-o singură tavă și tăiată fâșii, cu sos de iaurt cu usturoi și salată de roșii.",
+    servings: 6,
+    servingsLabel: "porții",
+    prepMin: 10,
+    cookMin: 25,
+    tags: ["la cuptor", "o singură tavă", "se poate congela"],
+    source: {
+      name: "Simple Home Edit",
+      url: "https://simplehomeedit.com/recipe/juicy-oven-baked-chicken-kebabs/"
+    },
+    ingredients: [
+      {
+        group: "Kebab",
+        items: [
+          { qty: 1000, unit: "g", name: "carne tocată de pui" },
+          { qty: 150, unit: "g", name: "ceapă rasă (1 ceapă medie)" },
+          { qty: 15, unit: "g", name: "usturoi proaspăt, tocat fin (3–4 căței)" },
+          { qty: 35, unit: "g", name: "pastă de tomate" },
+          { qty: 7, unit: "g", name: "boia dulce" },
+          { qty: 4, unit: "g", name: "chimion măcinat" },
+          { qty: 2.5, unit: "g", name: "ceapă granulată" },
+          { qty: 3, unit: "g", name: "usturoi granulat" },
+          { qty: 1, unit: "g", name: "oregano uscat" },
+          { qty: 6, unit: "g", name: "sare" },
+          { qty: 1, unit: "g", name: "piper negru proaspăt măcinat" },
+          { qty: 8, unit: "g", name: "coriandru sau pătrunjel, tocat fin" },
+          { qty: 10, unit: "g", name: "ulei de măsline spray (aprox.)" }
+        ]
+      },
+      {
+        group: "Sos de iaurt cu usturoi",
+        items: [
+          { qty: 125, unit: "g", name: "iaurt grecesc simplu" },
+          { qty: 125, unit: "g", name: "maioneză" },
+          { qty: 5, unit: "g", name: "usturoi, tocat fin (1 cățel)" },
+          { qty: 15, unit: "g", name: "zeamă de lămâie" },
+          { qty: 13, unit: "g", name: "ulei de măsline" },
+          { qty: 1.5, unit: "g", name: "sare" }
+        ]
+      },
+      {
+        group: "Salată de roșii și ceapă",
+        items: [
+          { qty: 200, unit: "g", name: "roșii cherry, tăiate în sferturi" },
+          { qty: 30, unit: "g", name: "ceapă roșie, feliată foarte subțire (¼ de ceapă)" },
+          { qty: 8, unit: "g", name: "pătrunjel, tocat fin" },
+          { qty: 1.5, unit: "g", name: "sumac" },
+          { qty: 13, unit: "g", name: "ulei de măsline" },
+          { qty: 15, unit: "g", name: "zeamă de lămâie" },
+          { qty: null, unit: "", name: "un praf de sare" }
+        ]
+      },
+      {
+        group: "Pentru servire",
+        items: [
+          { qty: null, unit: "", name: "lipii sau pita" },
+          { qty: null, unit: "", name: "hummus (opțional)" },
+          { qty: null, unit: "", name: "felii de lămâie (opțional)" }
+        ]
+      }
+    ],
+    steps: [
+      { title: "Încinge cuptorul", text: "Pornește cuptorul la 240°C (sau 220°C cu ventilație). Tapetează o tavă mare cu hârtie de copt." },
+      { title: "Compoziția", text: "Pune toate ingredientele pentru kebab, în afară de ulei, într-un bol mare. Amestecă doar până se omogenizează, fără să frămânți mult." },
+      { title: "Întinde în tavă", text: "Răstoarnă compoziția în tavă și întinde-o într-un dreptunghi de aproximativ 28 × 20 cm, gros de 1,5–2 cm. Netezește suprafața cu mâinile ude sau cu dosul unei linguri." },
+      { title: "Crestează și unge", text: "Cu un cuțit sau o spatulă, crestează compoziția în fâșii lungi, ca de kebab, fără să tai până la fund. Dă-o ușor cu ulei de măsline." },
+      { title: "Coace", text: "Coace pe raftul de sus 22–25 de minute, până se rumenește, iar marginile devin crocante. Verifică de la minutul 18. Dacă se strânge mult lichid, scurge-l cu grijă la jumătatea timpului. Opțional, 1–2 minute la grill la final pentru culoare." },
+      { title: "Sosul", text: "Amestecă bine toate ingredientele pentru sosul de iaurt cu usturoi." },
+      { title: "Salata", text: "Într-un alt bol, amestecă ingredientele pentru salata de roșii și ceapă." },
+      { title: "Servește", text: "Taie kebabul pe liniile crestate. Servește-l în lipii, cu hummus (dacă vrei), sos de iaurt și salată de roșii, plus felii de lămâie alături." }
+    ],
+    nutrition: {
+      kcal: 466, protein: 35, carbs: 12, fat: 31, fiber: 3,
+      note: "Kebab cu sos de iaurt și salată, fără lipie și hummus."
+    },
+    notes: [
+      "Gramajele pentru condimente sunt aproximative (convertite din lingurițe și linguri).",
+      "Ca să fie mai simplu, poți sări peste salată și hummus: kebabul cu sosul de iaurt în lipie e suficient.",
+      "Compoziția crudă se ține 24 h la frigider sau 3 luni la congelator (dezghețată peste noapte în frigider, nu se coace direct din congelator).",
+      "Kebabul copt se poate congela până la 3 luni. Sosul de iaurt se păstrează 3 zile la frigider; salata e mai bună proaspătă.",
+      "Reîncălzire: la microunde sau 8–10 min în cuptor la 200°C (180°C cu ventilație).",
+      "Merge și ca chiftele lungi (kofta) pe grătar sau mai mici la air fryer; timpul depinde de mărime."
+    ]
+  },
   {
     id: "burgeri-pui-crocanti",
     category: "pui",
@@ -65,6 +154,10 @@ window.RECIPES = [
       { title: "Prăjește chiflele", text: "Pune chiflele tăiate, cu fața în sus, în cuptor la aceeași temperatură, 2–3 minute, până se rumenesc." },
       { title: "Asamblează", text: "Unge chiflele cu maioneză, pune salata, apoi chifteaua. Acoperă cu capacul și servește imediat." }
     ],
+    nutrition: {
+      kcal: 504, protein: 30, carbs: 39, fat: 25, fiber: 3,
+      note: "Un burger complet: chiflă, maioneză, salată și chifteaua."
+    },
     notes: [
       "Gramajele pentru condimente sunt aproximative (convertite din lingurițe).",
       "Air fryer: 200°C, 10–12 min, întoarse la jumătate.",
