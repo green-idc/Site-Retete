@@ -1,12 +1,67 @@
 /*
   Rețetele site-ului.
   Pentru o rețetă nouă, copiază un obiect existent, schimbă "id" (unic, fără spații)
-  și pune "category" pe una dintre: pui, vita, porc, deserturi, deserturi-healthy.
+  și pune "category" pe una dintre: pui, vita, porc, paine-aluaturi, deserturi, deserturi-healthy.
   Cantitățile (qty) se scalează automat când schimbi numărul de porții.
   Dacă un ingredient nu are cantitate (ex. „după gust”), lasă qty: null.
   "nutrition" = valori pe o porție (kcal, proteine, carbohidrați, grăsimi, fibre în grame).
 */
 window.RECIPES = [
+  {
+    id: "bageli-iaurt-grecesc",
+    category: "paine-aluaturi",
+    title: "Bageli cu iaurt grecesc",
+    description: "Bageli moi și pufoși din doar 3 ingrediente de bază, fără drojdie și fără dospire, cu mai multe proteine decât cei clasici.",
+    servings: 8,
+    servingsLabel: "bageli",
+    prepMin: 15,
+    cookMin: 25,
+    tags: ["la cuptor", "fără drojdie", "se poate congela"],
+    source: {
+      name: "Lindsay Pleskot",
+      url: "https://www.lindsaypleskot.com/greek-yogurt-bagels/"
+    },
+    ingredients: [
+      {
+        group: "Aluat",
+        items: [
+          { qty: 250, unit: "g", name: "făină albă (tip 000 sau 650)" },
+          { qty: 16, unit: "g", name: "praf de copt (cam 1½ plic de 10 g)" },
+          { qty: 8, unit: "g", name: "sare" },
+          { qty: 480, unit: "g", name: "iaurt grecesc 2% grăsime" }
+        ]
+      },
+      {
+        group: "Pentru deasupra",
+        items: [
+          { qty: 1, unit: "", name: "ou bătut" },
+          { qty: null, unit: "", name: "semințe de susan, condiment „everything bagel” sau zahăr cu scorțișoară (opțional)" }
+        ]
+      }
+    ],
+    steps: [
+      { title: "Încinge cuptorul", text: "Pornește cuptorul la 190°C (sau 170°C cu ventilație) și tapetează o tavă cu hârtie de copt." },
+      { title: "Amestecă ingredientele uscate", text: "Într-un bol mare, amestecă făina, praful de copt și sarea." },
+      { title: "Adaugă iaurtul", text: "Pune iaurtul și amestecă cu o lingură până se formează un aluat zdrențuit." },
+      { title: "Frământă", text: "Frământă aluatul direct în bol 2–3 minute, până devine neted și elastic. E normal să fie ușor lipicios; nu adăuga multă făină în plus." },
+      { title: "Formează bagelii", text: "Împarte aluatul în 8 bucăți egale (cam 95 g fiecare). Rulează fiecare bucată într-un cârnăcior, unește capetele ca să formezi un inel și așază bagelii în tavă." },
+      { title: "Unge și presară", text: "Unge bagelii cu oul bătut și presară deasupra ce topping vrei." },
+      { title: "Coace", text: "Coace 22–25 de minute, până se umflă și se rumenesc." },
+      { title: "Lasă la răcit", text: "Lasă-i să se răcească 10–15 minute înainte să-i tai, altfel se fărâmițează." }
+    ],
+    nutrition: {
+      kcal: 168, protein: 10, carbs: 27, fat: 2, fiber: 1,
+      note: "Un bagel simplu, fără topping."
+    },
+    notes: [
+      "Rețeta originală folosește făină obișnuită + praf de copt, nu self-rising flour, deci făina 000 de la noi merge perfect.",
+      "Folosește neapărat iaurt grecesc (strecurat, gros). Iaurtul obișnuit are prea mult lichid și aluatul iese prea moale.",
+      "Gramajele pentru praf de copt și sare sunt aproximative (convertite din linguri și lingurițe).",
+      "Nu sări peste ou: le dă culoarea aurie, ca de brutărie.",
+      "Păstrare: 1–2 zile la temperatura camerei într-o cutie închisă, încă 3–4 zile la frigider sau până la o lună la congelator.",
+      "Reîncălzire: 10–15 secunde la microunde sau tăiați în două și prăjiți la toaster."
+    ]
+  },
   {
     id: "kebab-pui-la-cuptor",
     category: "pui",
