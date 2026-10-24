@@ -8,6 +8,163 @@
 */
 window.RECIPES = [
   {
+    id: "vita-broccoli-wok",
+    category: "vita",
+    title: "Vită cu broccoli în wok",
+    description: "Fâșii subțiri de vită marinate și rumenite rapid în wok, cu broccoli și un sos lucios de soia, sos de stridii și vin Shaoxing.",
+    servings: 3,
+    servingsLabel: "porții",
+    prepMin: 25,
+    cookMin: 10,
+    tags: ["în wok sau tigaie", "rapid", "bogat în proteine"],
+    source: {
+      name: "YouTube",
+      url: "https://www.youtube.com/watch?v=BKutdsvJqEo&list=PLkQnGWYAO9uEUBTJX5gExX1ufoRo8wu7k&index=61"
+    },
+    ingredients: [
+      {
+        group: "Vită și marinadă",
+        items: [
+          { qty: 450, unit: "g", name: "fleică de vită (flank), tăiată felii subțiri, perpendicular pe fibră" },
+          { qty: 1.5, unit: "g", name: "bicarbonat de sodiu" },
+          { qty: 45, unit: "g", name: "vin de orez Shaoxing" },
+          { qty: 6, unit: "g", name: "sos de soia deschis (light)" },
+          { qty: 6, unit: "g", name: "sos de stridii" },
+          { qty: 3, unit: "g", name: "sare" },
+          { qty: 2, unit: "g", name: "zahăr" },
+          { qty: 8, unit: "g", name: "amidon de porumb (Maizena)" },
+          { qty: 13, unit: "g", name: "ulei neutru" }
+        ]
+      },
+      {
+        group: "Sos",
+        items: [
+          { qty: 80, unit: "g", name: "supă de vită" },
+          { qty: 27, unit: "g", name: "sos de soia deschis (light)" },
+          { qty: 6, unit: "g", name: "sos de soia închis (dark)" },
+          { qty: 18, unit: "g", name: "sos de stridii" },
+          { qty: 5, unit: "g", name: "ulei de susan" },
+          { qty: 12, unit: "g", name: "zahăr" },
+          { qty: 0.5, unit: "g", name: "piper alb" }
+        ]
+      },
+      {
+        group: "Pentru wok",
+        items: [
+          { qty: 65, unit: "g", name: "ulei neutru (40 g pentru vită, 25 g pentru arome)" },
+          { qty: 15, unit: "g", name: "usturoi, tocat (3 căței)" },
+          { qty: 5, unit: "g", name: "ghimbir proaspăt, tocat" },
+          { qty: 400, unit: "g", name: "broccoli (1 căpățână), separat în buchețele" },
+          { qty: 30, unit: "g", name: "vin de orez Shaoxing" },
+          { qty: 12, unit: "g", name: "amidon de porumb (Maizena)" },
+          { qty: 45, unit: "g", name: "apă (pentru amidon)" },
+          { qty: null, unit: "", name: "semințe de susan" }
+        ]
+      },
+      {
+        group: "Pentru servire",
+        items: [
+          { qty: null, unit: "", name: "orez fierbinte" }
+        ]
+      }
+    ],
+    steps: [
+      { title: "Marinează vita", text: "Taie vita felii subțiri, perpendicular pe fibră. Amestec-o cu toate ingredientele pentru marinadă și las-o cât pregătești restul, cam 15 minute." },
+      { title: "Pregătește restul", text: "Amestecă ingredientele pentru sos într-un bol. Toacă usturoiul și ghimbirul. Desparte broccoli în buchețele și opărește-l 45 de secunde în apă clocotită cu sare, apoi scurge-l." },
+      { title: "Rumenește vita", text: "Încinge wokul foarte tare, pune 40 g de ulei și întinde vita într-un singur strat. Las-o 1–2 minute fără să amesteci, ca să se rumenească bine, apoi amestecă. În total, 3–4 minute. Scoate vita deoparte." },
+      { title: "Usturoiul și ghimbirul", text: "Pune restul de ulei în wok. Călește usturoiul și ghimbirul câteva secunde, apoi stinge cu vinul Shaoxing." },
+      { title: "Combină", text: "Pune înapoi vita, adaugă broccoli și sosul și sotează 2–3 minute." },
+      { title: "Leagă sosul", text: "Amestecă amidonul cu apa și toarnă-l în wok. Amestecă până sosul se îngroașă și devine lucios." },
+      { title: "Servește", text: "Presară semințe de susan și servește cu orez fierbinte." }
+    ],
+    nutrition: {
+      kcal: 600, protein: 37, carbs: 24, fat: 38, fiber: 3,
+      note: "O porție din 3, fără orez. Calculat de mine din ingrediente. Aproape 230 kcal pe porție vin din ulei; dacă pui doar jumătate din uleiul pentru wok, scazi cam 100 kcal."
+    },
+    notes: [
+      "Rețeta nu spune câte porții ies. Am considerat 3 porții la 450 g de vită, servită cu orez (adaptarea mea).",
+      "Fleica (flank) e cea mai potrivită. Merg și antricotul sau mușchiul, tăiate la fel de subțire.",
+      "Bicarbonatul din marinadă face carnea foarte fragedă, nu sări peste el.",
+      "Sosul de soia deschis dă sare, cel închis dă culoare. Le găsești la raionul asiatic sau la magazinele asiatice, la fel ca vinul Shaoxing și sosul de stridii.",
+      "Dacă nu găsești vin Shaoxing, merge sherry sec sau un vin alb sec.",
+      "Gramajele pentru sosuri și condimente sunt aproximative (convertite din linguri și lingurițe)."
+    ]
+  },
+  {
+    id: "wraps-fajita-pui",
+    category: "pui",
+    title: "Wraps fajita cu pui, bogate în proteine",
+    description: "Fâșii de piept de pui condimentate, cu ardei și ceapă, în lipii light, cu sos verde de avocado, iaurt și coriandru. Rapid, pentru prânz sau cină.",
+    servings: 4,
+    servingsLabel: "wraps",
+    prepMin: 15,
+    cookMin: 15,
+    tags: ["în tigaie", "rapid", "bogat în proteine"],
+    source: {
+      name: "YouTube",
+      url: "https://www.youtube.com/watch?v=GwpbU-TF0fI&list=PLkQnGWYAO9uEUBTJX5gExX1ufoRo8wu7k&index=19"
+    },
+    ingredients: [
+      {
+        group: "Pui",
+        items: [
+          { qty: 600, unit: "g", name: "piept de pui, tăiat fâșii" },
+          { qty: 2.5, unit: "g", name: "boia dulce" },
+          { qty: 0.5, unit: "g", name: "pătrunjel uscat" },
+          { qty: 2, unit: "g", name: "chimion" },
+          { qty: 3, unit: "g", name: "usturoi granulat" },
+          { qty: 2.5, unit: "g", name: "condiment chili (amestec, nu chili pur)" },
+          { qty: 4, unit: "g", name: "sare" },
+          { qty: 1, unit: "g", name: "piper" },
+          { qty: 30, unit: "g", name: "zeamă de lime (1 lime)" }
+        ]
+      },
+      {
+        group: "Legume",
+        items: [
+          { qty: 300, unit: "g", name: "ardei gras colorați, tăiați fâșii (2 ardei)" },
+          { qty: 150, unit: "g", name: "ceapă, tăiată fâșii (1 ceapă)" },
+          { qty: 10, unit: "g", name: "ulei de măsline" }
+        ]
+      },
+      {
+        group: "Sos de avocado cu lime",
+        items: [
+          { qty: 100, unit: "g", name: "avocado" },
+          { qty: 175, unit: "g", name: "iaurt 0% grăsime (150–200 g, ex. Milbona)" },
+          { qty: 10, unit: "g", name: "coriandru proaspăt (o mână)" },
+          { qty: null, unit: "", name: "sare, piper și usturoi granulat, după gust" },
+          { qty: null, unit: "", name: "zeamă de lime, după gust" }
+        ]
+      },
+      {
+        group: "Pentru servire",
+        items: [
+          { qty: 4, unit: "", name: "lipii tortilla light (ex. Mission)" }
+        ]
+      }
+    ],
+    steps: [
+      { title: "Marinează puiul", text: "Taie pieptul în fâșii subțiri și amestecă-l cu toate condimentele și zeama de lime, până se acoperă bine. Lasă-l cât pregătești sosul și legumele." },
+      { title: "Fă sosul", text: "Mixează avocado, iaurtul, coriandrul, sarea, piperul, usturoiul granulat și zeama de lime până devine un sos fin." },
+      { title: "Gătește puiul", text: "Încinge uleiul într-o tigaie pe foc mare. Gătește puiul 4–5 minute pe fiecare parte, până se rumenește și se pătrunde, apoi scoate-l deoparte." },
+      { title: "Legumele", text: "În aceeași tigaie, călește ardeii și ceapa cam 5 minute, până se înmoaie ușor." },
+      { title: "Combină", text: "Pune puiul înapoi în tigaie și amestecă-l cu legumele." },
+      { title: "Asamblează", text: "Încălzește lipiile, pune umplutura, toarnă sosul verde deasupra, rulează și servește." }
+    ],
+    nutrition: {
+      kcal: 384, protein: 40, carbs: 24, fat: 14, fiber: 5,
+      note: "Un wrap întreg, cu lipie light și sos. Valorile sunt ale autorului; fibrele le-am estimat eu."
+    },
+    notes: [
+      "Autorul scrie „3 wraps”, dar și „100 g pui gătit pe wrap”. Din 600 g pui crud ies cam 450 g gătit, adică 4 wraps. Macro-urile lui se potrivesc cu 4, așa că am pus 4 (adaptarea mea). Dacă faci 3, fiecare are cam 520 kcal și 57 g proteine.",
+      "Ardeii, ceapa și uleiul apar în pașii autorului, dar nu și în lista de ingrediente. Cantitățile sunt ale mele.",
+      "Pentru sos am urmat lista de ingrediente (avocado, iaurt 0%, coriandru), nu varianta din pași, care pomenea și smântână.",
+      "Sosul de avocado se poate face în cantitate mai mare și se păstrează 1–2 zile la frigider, acoperit bine.",
+      "Gramajele pentru condimente sunt aproximative (convertite din lingurițe)."
+    ]
+  },
+  {
     id: "cordon-bleu-pui",
     category: "pui",
     title: "Cordon bleu de pui la cuptor",
