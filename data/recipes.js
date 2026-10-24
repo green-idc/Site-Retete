@@ -8,6 +8,177 @@
 */
 window.RECIPES = [
   {
+    id: "costite-porc-bere-crockpot",
+    category: "crockpot",
+    title: "Costițe de porc în bere la Crockpot Express",
+    description: "Costițe marinate cu zahăr brun și condimente, gătite la presiune în bere brună, apoi glazurate cu sos BBQ la cuptor. Cu morcovi caramelizați alături.",
+    servings: 4,
+    servingsLabel: "porții",
+    prepMin: 15,
+    cookMin: 45,
+    tags: ["la presiune", "Manual / High 25 min", "marinare min. 2 h"],
+    source: {
+      name: "Teo's Kitchen",
+      url: "https://teoskitchen.ro/2019/11/costite-de-porc-in-bere-la-multicooker-crock-pot-express-cu-gatire-sub-presiune.html"
+    },
+    ingredients: [
+      {
+        group: "Costițe",
+        items: [
+          { qty: 1500, unit: "g", name: "costiță (scăricică) de porc proaspătă" },
+          { qty: 50, unit: "g", name: "zahăr brun" },
+          { qty: 30, unit: "g", name: "condimente pentru porc (amestec)" },
+          { qty: 250, unit: "g", name: "bere brună" },
+          { qty: 170, unit: "g", name: "sos barbeque" }
+        ]
+      },
+      {
+        group: "Morcovi caramelizați",
+        items: [
+          { qty: 500, unit: "g", name: "morcovi baby congelați (sau morcovi tăiați rondele)" },
+          { qty: 80, unit: "g", name: "unt" },
+          { qty: 60, unit: "g", name: "zahăr brun" },
+          { qty: 1, unit: "g", name: "scorțișoară măcinată" },
+          { qty: 120, unit: "g", name: "apă" },
+          { qty: null, unit: "", name: "sare și piper, după gust" }
+        ]
+      }
+    ],
+    steps: [
+      { title: "Marinează costițele", text: "Spală costițele și șterge-le foarte bine cu prosoape de hârtie. Amestecă zahărul brun cu condimentele și freacă bine carnea cu amestecul. Lasă la marinat minimum 2 ore, ideal peste noapte, la frigider." },
+      { title: "Gătește la presiune", text: "Pune costițele în vasul aparatului și toarnă berea peste ele. Închide capacul și supapa, alege MANUAL, presiune HIGH, 25 de minute." },
+      { title: "Eliberează presiunea", text: "La final, lasă presiunea să scadă singură 5 minute, fără să atingi aparatul. Apoi deschide supapa cu grijă, cu un clește, ca să iasă restul aburului." },
+      { title: "Glazurează la cuptor", text: "Încinge cuptorul la 200°C. Pune costițele pe o tavă cu hârtie de copt și unge-le generos cu sosul barbeque, cu o pensulă. Coace 10–12 minute, până sosul face o crustă lucioasă și lipicioasă." },
+      { title: "Morcovii", text: "Cât stau costițele în cuptor, golește vasul aparatului și pune în el toate ingredientele pentru morcovi. Închide capacul și supapa, alege MANUAL, presiune HIGH, 4 minute." },
+      { title: "Servește", text: "La final, eliberează presiunea imediat, cu grijă, folosind un clește sau o mănușă. Servește morcovii lângă costițe." }
+    ],
+    nutrition: {
+      kcal: 1050, protein: 43, carbs: 60, fat: 71, fiber: 4,
+      note: "O porție de costițe (cam 375 g crude, cu os) cu morcovi caramelizați. Doar costițele: cam 800 kcal. Calculat de mine din ingrediente; variază mult după cât de grasă e carnea."
+    },
+    notes: [
+      "Rețeta originală nu spune câte porții ies. Am considerat 4 porții la 1,5 kg de costiță cu os (adaptarea mea).",
+      "Merge și cu costiță afumată, cu același timp de gătire. Atunci pune mai puține condimente, pentru că e deja sărată.",
+      "Poți folosi orice sos barbeque, din comerț sau făcut în casă.",
+      "Morcovii baby congelați se clătesc sub jet de apă rece înainte să-i pui în aparat.",
+      "Gramajele pentru zahăr și condimente sunt aproximative (convertite din linguri)."
+    ]
+  },
+  {
+    id: "aluat-pizza-casa",
+    category: "paine-aluaturi",
+    title: "Aluat de pizza făcut în casă",
+    description: "Aluat simplu cu drojdie uscată și ulei de măsline, pentru 2 blaturi mari de 35 cm. Iese și mai bun dacă stă o noapte la frigider.",
+    servings: 2,
+    servingsLabel: "blaturi",
+    prepMin: 20,
+    cookMin: 12,
+    tags: ["la cuptor", "dospire 2 h", "se poate face din ziua de dinainte"],
+    source: {
+      name: "Teo's Kitchen",
+      url: "https://teoskitchen.ro/2017/01/aluat-de-pizza-facut-casa.html"
+    },
+    ingredients: [
+      {
+        group: "Aluat",
+        items: [
+          { qty: 350, unit: "g", name: "făină albă 000" },
+          { qty: 7, unit: "g", name: "drojdie uscată (1 plic)" },
+          { qty: 240, unit: "g", name: "apă călduță" },
+          { qty: 6, unit: "g", name: "sare" },
+          { qty: 8, unit: "g", name: "zahăr" },
+          { qty: 26, unit: "g", name: "ulei de măsline (plus puțin pentru bol)" }
+        ]
+      },
+      {
+        group: "Pentru întindere și copt",
+        items: [
+          { qty: null, unit: "", name: "făină pentru masa de lucru" },
+          { qty: null, unit: "", name: "mălai pentru tavă" },
+          { qty: null, unit: "", name: "sos de roșii și toppingurile preferate" }
+        ]
+      }
+    ],
+    steps: [
+      { title: "Activează drojdia", text: "Dizolvă drojdia și zahărul în apa călduță și lasă 10–15 minute. Trebuie să facă spumă; dacă nu face, drojdia nu e bună și o iei de la capăt." },
+      { title: "Frământă", text: "Într-un bol (sau în bolul mixerului), amestecă scurt făina, sarea și uleiul, apoi adaugă apa cu drojdie. Frământă până aluatul devine neted, elastic și se desprinde de pe pereții bolului, cam 8–10 minute. E normal să fie puțin lipicios." },
+      { title: "Lasă la dospit", text: "Pune aluatul într-un bol curat, uns cu puțin ulei de măsline, acoperă-l și lasă-l la cald 2 ore, până își dublează volumul. Un loc bun e cuptorul stins, doar cu becul aprins." },
+      { title: "Opțional: o noapte la frigider", text: "Pentru un blat mai gustos, ține aluatul dospit peste noapte la frigider, acoperit. Îl poți folosi și imediat." },
+      { title: "Întinde blaturile", text: "Împarte aluatul în 2 bile egale (sau 3, pentru blaturi mai subțiri). Întinde fiecare bilă pe masa înfăinată și așaz-o într-o tavă presărată cu mălai, cu marginile puțin mai groase." },
+      { title: "Adaugă toppingul", text: "Încinge cuptorul la 220°C. Întinde sosul pe blat și pune toppingurile preferate." },
+      { title: "Coace", text: "Coace în cuptorul bine încins până blatul se rumenește uniform și marginile sunt aurii. Autoarea indică 4–5 minute, dar la un cuptor de casă durează de obicei 10–12 minute, așa că urmărește-l." }
+    ],
+    nutrition: {
+      kcal: 780, protein: 20, carbs: 138, fat: 15, fiber: 5,
+      note: "Un blat întreg de 35 cm, doar aluatul, fără sos și topping (o pizza ajunge de obicei pentru 2 persoane). Calculat de mine din ingrediente."
+    },
+    notes: [
+      "Timpul de coacere de 10–12 minute și timpul de frământare sunt adaptarea mea: rețeta originală spune 4–5 minute la 220°C și nu dă timp de frământare.",
+      "Aluatul ține bine 2–4 zile la frigider, acoperit.",
+      "Drojdia uscată se poate pune și direct în făină, fără să o activezi înainte.",
+      "Poți înlocui o parte din făină cu griș sau făină neagră.",
+      "Toppingul autoarei: mozzarella, gorgonzola, măsline kalamata, iar după coacere prosciutto și rucola.",
+      "Gramajele pentru sare, zahăr și ulei sunt aproximative (convertite din lingurițe și linguri)."
+    ]
+  },
+  {
+    id: "painici-naan",
+    category: "paine-aluaturi",
+    title: "Pâinici naan făcute în casă",
+    description: "Lipii pufoase cu iaurt grecesc, coapte în tigaie și unse cu ulei de măsline cu usturoi și pătrunjel.",
+    servings: 5,
+    servingsLabel: "bucăți",
+    prepMin: 15,
+    cookMin: 15,
+    tags: ["în tigaie", "dospire 30 min"],
+    source: {
+      name: "Teo's Kitchen",
+      url: "https://teoskitchen.ro/2021/10/painici-naan-facute-in-casa.html"
+    },
+    ingredients: [
+      {
+        group: "Aluat",
+        items: [
+          { qty: 250, unit: "g", name: "făină albă 650" },
+          { qty: 125, unit: "g", name: "iaurt grecesc" },
+          { qty: 60, unit: "g", name: "apă călduță" },
+          { qty: 10, unit: "g", name: "ulei" },
+          { qty: 7, unit: "g", name: "drojdie uscată (1 plic)" },
+          { qty: 6, unit: "g", name: "sare" },
+          { qty: 4, unit: "g", name: "zahăr" }
+        ]
+      },
+      {
+        group: "Ulei cu usturoi",
+        items: [
+          { qty: 13, unit: "g", name: "ulei de măsline (plus puțin pentru masa de lucru)" },
+          { qty: 15, unit: "g", name: "pătrunjel (½ legătură)" },
+          { qty: 15, unit: "g", name: "usturoi (3–4 căței)" }
+        ]
+      }
+    ],
+    steps: [
+      { title: "Fă aluatul", text: "Pune toate ingredientele pentru aluat în robotul de bucătărie și mixează până obții un aluat omogen. Dacă nu ai robot, frământă-l cu mâna cam 5 minute." },
+      { title: "Lasă la dospit", text: "Mută aluatul într-un bol curat, acoperă-l și lasă-l să dospească 30 de minute." },
+      { title: "Întinde lipiile", text: "Împarte aluatul în 5 bucăți egale. Pe masa unsă cu puțin ulei de măsline, întinde fiecare bucată până are 2–3 mm grosime." },
+      { title: "Coace în tigaie", text: "Încinge o tigaie antiaderentă pe foc mediu, fără ulei. Coace fiecare lipie 1–2 minute pe o parte, până face bule, apoi întoarce-o și mai coace 1–2 minute, până se rumenește cât îți place." },
+      { title: "Uleiul cu usturoi", text: "Mixează pătrunjelul și usturoiul cu uleiul de măsline până devine un sos. Le poți și toca mărunt cu cuțitul și amesteca apoi cu uleiul." },
+      { title: "Unge și servește", text: "Unge lipiile cât sunt fierbinți cu uleiul aromatizat și servește-le calde." }
+    ],
+    nutrition: {
+      kcal: 250, protein: 8, carbs: 39, fat: 6, fiber: 2,
+      note: "O lipie, cu ulei de usturoi. Calculat de mine din ingrediente."
+    },
+    notes: [
+      "Timpul de 1–2 minute pe fiecare parte și varianta frământată cu mâna sunt adaptarea mea: rețeta originală spune doar „până se rumenesc”.",
+      "Rețeta originală spune „1 pliculeț drojdie”, fără să zică ce fel. Am pus drojdie uscată de 7 g.",
+      "Iaurtul face naanul mai pufos decât pita: în loc de un singur buzunar, face multe bule.",
+      "Merge și cu făină fără gluten, dar aluatul se lucrează mai greu.",
+      "Se păstrează 1–2 zile în pungi cu fermoar, după ce s-au răcit complet.",
+      "Gramajele pentru sare și zahăr sunt aproximative (convertite din lingurițe)."
+    ]
+  },
+  {
     id: "souvlaki-pui-grecesc",
     category: "pui",
     title: "Souvlaki grecesc de pui cu tzatziki",
