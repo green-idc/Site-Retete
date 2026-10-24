@@ -8,6 +8,68 @@
 */
 window.RECIPES = [
   {
+    id: "chow-mein-pui",
+    category: "pui",
+    title: "Chow mein cu pui în 20 de minute",
+    description: "Tăiței cu ou sotați în wok cu pulpă de pui, ciuperci, varză, morcovi și germeni de soia, într-un sos de soia, sos de stridii și ulei de susan.",
+    servings: 3,
+    servingsLabel: "porții",
+    prepMin: 10,
+    cookMin: 10,
+    tags: ["în wok sau tigaie", "rapid", "fel complet"],
+    source: {
+      name: "YouTube",
+      url: "https://www.youtube.com/watch?v=YXSOWDWu4IA&list=PLkQnGWYAO9uEUBTJX5gExX1ufoRo8wu7k&index=25"
+    },
+    ingredients: [
+      {
+        group: "Sos chow mein",
+        items: [
+          { qty: 45, unit: "g", name: "sos de soia închis (dark) sau deschis (light)" },
+          { qty: 60, unit: "g", name: "sos de stridii" },
+          { qty: 18, unit: "g", name: "ulei de susan" },
+          { qty: 40, unit: "g", name: "vin de orez Shaoxing" },
+          { qty: 12, unit: "g", name: "zahăr" },
+          { qty: null, unit: "", name: "piper alb măcinat, după gust" }
+        ]
+      },
+      {
+        group: "Pui, legume și tăiței",
+        items: [
+          { qty: 46, unit: "g", name: "ulei de arahide (36 g pentru pui, 10 g pentru legume)" },
+          { qty: 350, unit: "g", name: "pulpe de pui dezosate, fără piele, tăiate fâșii subțiri" },
+          { qty: 100, unit: "g", name: "ciuperci (champignon albe sau brune), feliate subțire" },
+          { qty: 150, unit: "g", name: "varză albă, tăiată fideluță" },
+          { qty: 150, unit: "g", name: "morcovi, tăiați bețișoare subțiri (2 morcovi)" },
+          { qty: 20, unit: "g", name: "usturoi, tocat grosier (4 căței)" },
+          { qty: 75, unit: "g", name: "ceapă verde, tăiată grosier (4–5 fire)" },
+          { qty: 250, unit: "g", name: "germeni de soia (opțional)" },
+          { qty: 350, unit: "g", name: "tăiței proaspeți cu ou (sau uscați, vezi notele)" }
+        ]
+      }
+    ],
+    steps: [
+      { title: "Fă sosul", text: "Amestecă într-un bol sosul de soia, sosul de stridii, uleiul de susan, vinul Shaoxing, zahărul și piperul alb. Lasă deoparte." },
+      { title: "Fierbe tăițeii", text: "Fierbe tăițeii în apă clocotită cu 1 minut mai puțin decât scrie pe ambalaj, apoi scurge-i într-o strecurătoare." },
+      { title: "Rumenește puiul", text: "Încinge wokul pe foc mare cu 36 g de ulei de arahide. Pune puiul și prăjește-l 2–3 minute, până se pătrunde complet. Scoate-l deoparte." },
+      { title: "Ciupercile și varza", text: "Pune wokul înapoi pe foc mare cu restul de ulei. Adaugă ciupercile și varza și sotează 1–2 minute, până se înmoaie." },
+      { title: "Restul legumelor", text: "Adaugă morcovii și sotează 2 minute. Pune usturoiul și ceapa verde pentru încă 1 minut, apoi germenii de soia pentru încă un minut." },
+      { title: "Combină", text: "Pune înapoi puiul, adaugă tăițeii scurși și sosul. Amestecă totul în wok până se îmbracă uniform în sos." },
+      { title: "Servește", text: "Ia wokul de pe foc și servește imediat, ornat după preferință." }
+    ],
+    nutrition: {
+      kcal: 790, protein: 39, carbs: 89, fat: 29, fiber: 7,
+      note: "O porție din 3, fel complet, cu germeni de soia. Calculat de mine din ingrediente."
+    },
+    notes: [
+      "Rețeta nu spune câte porții ies. Am considerat 3 porții de fel principal (adaptarea mea). Dacă împarți în 4, ai cam 595 kcal și 29 g proteine pe porție.",
+      "Dacă folosești tăiței uscați, pune cam 250 g, nu 350 g: tăițeii uscați cresc la fiert (adaptarea mea).",
+      "Cantitățile de sos sunt preluate în grame și ml din rețeta originală, nu din linguri.",
+      "Sosul de soia închis dă o culoare mai intensă. Sosul de stridii, vinul Shaoxing și germenii de soia le găsești la raionul asiatic sau la magazinele asiatice.",
+      "Pregătește toate legumele dinainte: în wok totul merge foarte repede."
+    ]
+  },
+  {
     id: "vita-broccoli-wok",
     category: "vita",
     title: "Vită cu broccoli în wok",
