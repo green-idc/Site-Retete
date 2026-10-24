@@ -22,7 +22,8 @@ Dacă primesc mai multe rețete deodată, le pun într-un singur commit.
   (ou, chiflă, ceapă întreagă, căpățână de usturoi), cu greutatea aproximativă în nume când ajută.
   Pentru „după gust” sau ingrediente opționale fără cantitate folosesc `qty: null`.
 - La condimente convertite din lingurițe sau linguri adaug nota „Gramajele pentru condimente sunt aproximative”.
-- **Temperaturi în °C**, cu varianta pentru ventilație (de obicei cu 20°C mai puțin).
+- **Temperaturi în °C, pentru cuptor fără ventilație** (sus-jos). Utilizatorul nu are ventilație: dacă sursa dă doar
+  temperatura pentru ventilație („fan-forced”), adaug 20°C. Nu scriu varianta cu ventilație.
 - **Ingrediente de la noi:** all-purpose flour → făină albă 000. La self-rising flour verific dacă rețeta chiar îl
   folosește; dacă da, îl înlocuiesc cu făină 000 + praf de copt (plicul are 10 g). Cola: doza are 330 ml.
   „Chili powder” american e un amestec, nu chili pur.

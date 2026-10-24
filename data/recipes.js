@@ -69,7 +69,7 @@ window.RECIPES = [
       note: "Puiul cu porția de tzatziki, fără pita. Doar puiul: 362 kcal, 36 g proteine. Valorile sunt preluate de la autoare, pentru pui și tzatziki separat."
     },
     notes: [
-      "Variantă la cuptor (adaptarea mea): 220°C (200°C cu ventilație), frigăruile pe o tavă cu hârtie de copt, 15–18 minute, întoarse la jumătate. La final, 2–3 minute la grill pentru culoare.",
+      "Variantă la cuptor (adaptarea mea): 220°C, frigăruile pe o tavă cu hârtie de copt, 15–18 minute, întoarse la jumătate. La final, 2–3 minute la grill pentru culoare.",
       "Nu marina mai mult de 24 de ore: zeama de lămâie face carnea moale și fărâmicioasă.",
       "Rețeta originală nu dă greutatea puiului (spune „4 piepți”). Am pus 700 g, care se potrivesc cu valorile nutriționale ale autoarei.",
       "Sosul tzatziki e jumătate din rețeta autoarei, cât pentru 4 porții. Se păstrează 4 zile la frigider.",
@@ -240,7 +240,7 @@ window.RECIPES = [
     ],
     steps: [
       { title: "Pregătește puiul", text: "Pune cuburile de pui într-un bol, presară amidonul, usturoiul granulat, boiaua, sarea și piperul, apoi amestecă până se acoperă toate bucățile uniform." },
-      { title: "Gătește puiul", text: "La cuptor: încinge cuptorul la 220°C (200°C cu ventilație). Întinde puiul într-un singur strat pe o tavă cu hârtie de copt, dă-l cu ulei spray și coace 20–22 de minute, întorcând bucățile la jumătate. La final, 2–3 minute la grill pentru crustă. În tigaie: încinge uleiul pe foc mediu-mare și prăjește puiul în 2 tranșe, 7–8 minute fiecare, întorcând des, până e auriu și pătruns. Nu aglomera tigaia, altfel puiul fierbe în loc să se rumenească." },
+      { title: "Gătește puiul", text: "La cuptor: încinge cuptorul la 220°C. Întinde puiul într-un singur strat pe o tavă cu hârtie de copt, dă-l cu ulei spray și coace 20–22 de minute, întorcând bucățile la jumătate. La final, 2–3 minute la grill pentru crustă. În tigaie: încinge uleiul pe foc mediu-mare și prăjește puiul în 2 tranșe, 7–8 minute fiecare, întorcând des, până e auriu și pătruns. Nu aglomera tigaia, altfel puiul fierbe în loc să se rumenească." },
       { title: "Fă sosul", text: "Cât se gătește puiul, amestecă într-o crăticioară toate ingredientele pentru sos, până se dizolvă amidonul. Fierbe la foc mic 2–3 minute, amestecând, până se îngroașă și devine lucios." },
       { title: "Combină", text: "Pune puiul fierbinte într-un bol mare, toarnă jumătate din sos și amestecă până se îmbracă bine. Păstrează restul de sos pentru servire." },
       { title: "Servește", text: "Servește cu orez jasmin, toarnă deasupra sosul rămas și presară ceapă verde și semințe de susan." }
@@ -290,7 +290,7 @@ window.RECIPES = [
       }
     ],
     steps: [
-      { title: "Încinge cuptorul", text: "Pornește cuptorul la 190°C (sau 170°C cu ventilație) și tapetează o tavă cu hârtie de copt." },
+      { title: "Încinge cuptorul", text: "Pornește cuptorul la 190°C și tapetează o tavă cu hârtie de copt." },
       { title: "Amestecă ingredientele uscate", text: "Într-un bol mare, amestecă făina, praful de copt și sarea." },
       { title: "Adaugă iaurtul", text: "Pune iaurtul și amestecă cu o lingură până se formează un aluat zdrențuit." },
       { title: "Frământă", text: "Frământă aluatul direct în bol 2–3 minute, până devine neted și elastic. E normal să fie ușor lipicios; nu adăuga multă făină în plus." },
@@ -378,7 +378,7 @@ window.RECIPES = [
       }
     ],
     steps: [
-      { title: "Încinge cuptorul", text: "Pornește cuptorul la 240°C (sau 220°C cu ventilație). Tapetează o tavă mare cu hârtie de copt." },
+      { title: "Încinge cuptorul", text: "Pornește cuptorul la 240°C. Tapetează o tavă mare cu hârtie de copt." },
       { title: "Compoziția", text: "Pune toate ingredientele pentru kebab, în afară de ulei, într-un bol mare. Amestecă doar până se omogenizează, fără să frămânți mult." },
       { title: "Întinde în tavă", text: "Răstoarnă compoziția în tavă și întinde-o într-un dreptunghi de aproximativ 28 × 20 cm, gros de 1,5–2 cm. Netezește suprafața cu mâinile ude sau cu dosul unei linguri." },
       { title: "Crestează și unge", text: "Cu un cuțit sau o spatulă, crestează compoziția în fâșii lungi, ca de kebab, fără să tai până la fund. Dă-o ușor cu ulei de măsline." },
@@ -396,7 +396,7 @@ window.RECIPES = [
       "Ca să fie mai simplu, poți sări peste salată și hummus: kebabul cu sosul de iaurt în lipie e suficient.",
       "Compoziția crudă se ține 24 h la frigider sau 3 luni la congelator (dezghețată peste noapte în frigider, nu se coace direct din congelator).",
       "Kebabul copt se poate congela până la 3 luni. Sosul de iaurt se păstrează 3 zile la frigider; salata e mai bună proaspătă.",
-      "Reîncălzire: la microunde sau 8–10 min în cuptor la 200°C (180°C cu ventilație).",
+      "Reîncălzire: la microunde sau 8–10 min în cuptor la 200°C.",
       "Merge și ca chiftele lungi (kofta) pe grătar sau mai mici la air fryer; timpul depinde de mărime."
     ]
   },
@@ -450,7 +450,7 @@ window.RECIPES = [
       }
     ],
     steps: [
-      { title: "Încinge cuptorul", text: "Pornește cuptorul la 240°C (sau 220°C cu ventilație) și lasă-l să se încălzească bine, cam 20 de minute." },
+      { title: "Încinge cuptorul", text: "Pornește cuptorul la 240°C și lasă-l să se încălzească bine, cam 20 de minute." },
       { title: "Compoziția", text: "Pune toate ingredientele pentru chiftele într-un bol și amestecă ușor cu mâna doar până se omogenizează. Nu frământa mult, altfel chiftelele ies tari." },
       { title: "Formează chiftelele", text: "Împarte compoziția în 5 porții egale și modelează chiftele de ~1,5 cm grosime, puțin mai late decât chiflele. E normal să fie moale și lipicioasă; udă-ți ușor mâinile dacă e nevoie." },
       { title: "Crusta", text: "Pe o foaie mare de hârtie de copt amestecă pesmetul, parmezanul, boiaua, usturoiul și sarea pentru crustă." },
