@@ -4,7 +4,7 @@ const CATEGORIES = [
   { id: "vita", name: "Vită", emoji: "🥩", blurb: "Rețete cu carne de vită" },
   { id: "porc", name: "Porc", emoji: "🥓", blurb: "Rețete cu carne de porc" },
   { id: "paine-aluaturi", name: "Pâine și aluaturi", emoji: "🥯", blurb: "Bageli, lipii, pizza și alte aluaturi" },
-  { id: "crockpot", name: "Crockpot", emoji: "🍲", blurb: "Slow cooker și gătit la presiune" },
+  { id: "crockpot", name: "Crockpot", emoji: "🍲", blurb: "Rețete la Crockpot Express (gătit la presiune)" },
   { id: "deserturi", name: "Deserturi", emoji: "🍰", blurb: "Dulciuri clasice" },
   { id: "deserturi-healthy", name: "Deserturi healthy", emoji: "🍓", blurb: "Dulciuri mai ușoare" }
 ];
