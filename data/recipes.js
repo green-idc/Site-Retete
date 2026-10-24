@@ -8,6 +8,210 @@
 */
 window.RECIPES = [
   {
+    id: "cordon-bleu-pui",
+    category: "pui",
+    title: "Cordon bleu de pui la cuptor",
+    description: "Rulouri de piept de pui umplute cu șuncă și cașcaval, date prin unt și fulgi de porumb, coapte la cuptor și servite cu sos de maioneză cu muștar.",
+    servings: 8,
+    servingsLabel: "rulouri",
+    prepMin: 15,
+    cookMin: 30,
+    tags: ["la cuptor", "răcire min. 30 min", "se poate congela"],
+    source: {
+      name: "Tastes Better From Scratch",
+      url: "https://tastesbetterfromscratch.com/chicken-cordon-bleu/"
+    },
+    ingredients: [
+      {
+        group: "Rulouri",
+        items: [
+          { qty: 900, unit: "g", name: "piept de pui dezosat, fără piele (4 piepți)" },
+          { qty: 120, unit: "g", name: "șuncă presată, feliată subțire (8 felii)" },
+          { qty: 225, unit: "g", name: "Emmentaler sau alt cașcaval, ras sau feliat" },
+          { qty: null, unit: "", name: "sare și piper, după gust" }
+        ]
+      },
+      {
+        group: "Crustă",
+        items: [
+          { qty: 85, unit: "g", name: "fulgi de porumb neîndulciți (cornflakes), sfărâmați fin" },
+          { qty: 85, unit: "g", name: "unt, topit" }
+        ]
+      },
+      {
+        group: "Sos",
+        items: [
+          { qty: 220, unit: "g", name: "maioneză" },
+          { qty: 7, unit: "g", name: "muștar (sau după gust)" }
+        ]
+      }
+    ],
+    steps: [
+      { title: "Bate carnea", text: "Șterge pieptul de pui cu prosoape de hârtie. Taie fiecare piept în două pe orizontală, ca să ai 8 felii. Pune feliile între două bucăți de folie alimentară și bate-le cu ciocanul de carne sau cu sucitorul până sunt subțiri și uniforme, fără să le rupi." },
+      { title: "Umple și rulează", text: "Pune pe fiecare felie o felie de șuncă și o mână de cașcaval. Rulează strâns, împingând marginile spre interior." },
+      { title: "Strânge în folie", text: "Așază fiecare rulou pe o bucată nouă de folie alimentară, înfășoară-l strâns și răsucește capetele ca la o bomboană. Așa rămâne închis fără scobitori. Ține rulourile la frigider minimum 30 de minute (până la o zi)." },
+      { title: "Pregătește crusta", text: "Încinge cuptorul la 200°C. Sfărâmă fulgii de porumb fin, în robot sau într-o pungă cu sucitorul, și pune-i într-o farfurie adâncă. Pune untul topit în altă farfurie." },
+      { title: "Pane rulourile", text: "Scoate rulourile din folie și condimentează-le cu sare și piper. Dă fiecare prin unt, apoi prin fulgi, apăsând ușor ca să se lipească. Așază-le pe o tavă unsă ușor." },
+      { title: "Coace", text: "Coace pe raftul din mijloc 25–30 de minute, până când puiul are 71–74°C în interior (măsoară în carne, nu în umplutură)." },
+      { title: "Sosul și servirea", text: "Amestecă maioneza cu muștarul și potrivește după gust. Pune sosul peste rulouri și servește." }
+    ],
+    nutrition: {
+      kcal: 560, protein: 37, carbs: 9, fat: 40, fiber: 0,
+      note: "Un rulou cu sos. Fără sos: cam 375 kcal. Calculat de mine din ingrediente; sursa dădea 513 kcal și doar 24 g proteine, prea puțin pentru cantitatea de pui."
+    },
+    notes: [
+      "Un rulou e jumătate de piept. Ca fel principal consistent, socotește 2 rulouri de persoană (4 porții).",
+      "Variantă mai simplă: taie un buzunar în pieptul întreg și umple-l cu șuncă și cașcaval, fără să mai bați carnea.",
+      "În loc de fulgi de porumb merg pesmet, panko sau biscuiți sărați sfărâmați.",
+      "Se pregătește din ziua de dinainte: oprește-te după pasul 3 și ține rulourile la frigider până la o zi.",
+      "Rulourile crude, în folie, se pot congela până la 3 luni. Dezgheață-le peste noapte la frigider, apoi continuă de la pasul 4."
+    ]
+  },
+  {
+    id: "doner-kebab-casa",
+    category: "vita",
+    title: "Doner kebab făcut în casă",
+    description: "Carne tocată condimentată, întinsă subțire, rulată și coaptă la cuptor, apoi tăiată felii fine pentru lipii, ca la kebabul de la colț.",
+    servings: 5,
+    servingsLabel: "porții",
+    prepMin: 10,
+    cookMin: 25,
+    tags: ["la cuptor", "fel principal"],
+    source: {
+      name: "The Cooking Foodie",
+      url: "https://thecookingfoodie.com/recipe/homemade-doner-kebab/"
+    },
+    ingredients: [
+      {
+        group: "Carne",
+        items: [
+          { qty: 1000, unit: "g", name: "carne tocată de vită (minim 20% grăsime), de miel sau amestec" },
+          { qty: 150, unit: "g", name: "ceapă, rasă (1 ceapă)" },
+          { qty: 15, unit: "g", name: "usturoi, ras (3 căței)" },
+          { qty: 60, unit: "g", name: "iaurt simplu" },
+          { qty: 27, unit: "g", name: "ulei de măsline" },
+          { qty: 35, unit: "g", name: "pastă de tomate (sau sos BBQ)" },
+          { qty: 12, unit: "g", name: "sare" },
+          { qty: 2, unit: "g", name: "piper" },
+          { qty: 4, unit: "g", name: "chimion" },
+          { qty: 7, unit: "g", name: "boia dulce" },
+          { qty: 2, unit: "g", name: "oregano uscat" },
+          { qty: 1, unit: "g", name: "piper cayenne sau chili pur (opțional)" }
+        ]
+      },
+      {
+        group: "Pentru servire",
+        items: [
+          { qty: null, unit: "", name: "lipii pita calde sau tortilla mare" },
+          { qty: null, unit: "", name: "salată verde sau varză, tăiată fâșii" },
+          { qty: null, unit: "", name: "roșii și ceapă roșie, feliate" },
+          { qty: null, unit: "", name: "castraveți murați" },
+          { qty: null, unit: "", name: "sos tzatziki sau tahini (opțional)" },
+          { qty: null, unit: "", name: "pătrunjel proaspăt (opțional)" }
+        ]
+      }
+    ],
+    steps: [
+      { title: "Compoziția", text: "Pune într-un bol mare carnea, ceapa, usturoiul, iaurtul, pasta de tomate, sarea, piperul, boiaua, chimionul, oregano, cayenne și uleiul. Amestecă cu mâna până devine lipicioasă și se leagă bine." },
+      { title: "Întinde foi subțiri", text: "Împarte compoziția în 5 părți egale. Pune o parte între două foi de hârtie de copt și întinde-o cu sucitorul într-un dreptunghi foarte subțire și uniform, scoțând bulele de aer." },
+      { title: "Rulează", text: "Scoate foaia de hârtie de deasupra. Cu ajutorul celei de dedesubt, rulează carnea strâns pe latura lungă, ca pe o ruladă. Lasă ruloul în hârtie și răsucește capetele. Repetă cu restul." },
+      { title: "Coace", text: "Încinge cuptorul la 200°C. Pune rulourile, în hârtie, într-o tavă și coace-le 20–25 de minute, până se pătrund și se rumenesc ușor. Nu le lăsa mai mult, altfel carnea se fărâmițează." },
+      { title: "Taie felii", text: "Lasă-le să se odihnească 5 minute, apoi taie-le în felii foarte subțiri și destramă-le puțin cu două furculițe." },
+      { title: "Asamblează", text: "Umple lipiile calde cu carne, roșii, salată, ceapă, castraveți murați și sosul preferat. Servește imediat." }
+    ],
+    nutrition: {
+      kcal: 544, protein: 36, carbs: 6, fat: 41, fiber: 2,
+      note: "O porție de carne, fără lipie, legume și sos."
+    },
+    notes: [
+      "Sarea e „după gust” în rețeta originală. Am pus 12 g, cam 1,2% din carne, ca punct de plecare (adaptarea mea).",
+      "Carnea trebuie să aibă minim 20% grăsime, ideal 25–30%. Dacă e slabă, mai pune 1–2 linguri de ulei de măsline.",
+      "Pentru felii mai curate, ține rulourile coapte o oră la frigider înainte să le tai.",
+      "Pentru margini crocante, pune feliile 1–2 minute la grill înainte de servire.",
+      "Foile întinse se pot pregăti cu o zi înainte, ținute învelite la frigider.",
+      "Resturile se păstrează 4 zile la frigider. Se reîncălzesc mai bine în tigaie fierbinte decât la microunde.",
+      "Gramajele pentru condimente sunt aproximative (convertite din lingurițe și linguri)."
+    ]
+  },
+  {
+    id: "kung-pao-pui",
+    category: "pui",
+    title: "Pui Kung Pao",
+    description: "Pui chinezesc sotat în wok cu ardei, ardei iuți uscați, ghimbir, usturoi și caju, într-un sos lucios de soia și miere. Gata în 30 de minute.",
+    servings: 4,
+    servingsLabel: "porții",
+    prepMin: 15,
+    cookMin: 15,
+    tags: ["în wok sau tigaie", "rapid", "iute"],
+    source: {
+      name: "Downshiftology",
+      url: "https://downshiftology.com/recipes/kung-pao-chicken/"
+    },
+    ingredients: [
+      {
+        group: "Pui",
+        items: [
+          { qty: 680, unit: "g", name: "piept de pui dezosat, tăiat bucăți mici" },
+          { qty: 15, unit: "g", name: "sos de soia (tamari)" },
+          { qty: 15, unit: "g", name: "vin de orez Shaoxing sau vin alb sec" },
+          { qty: 3, unit: "g", name: "amidon de porumb (Maizena)" }
+        ]
+      },
+      {
+        group: "Sos Kung Pao",
+        items: [
+          { qty: 50, unit: "g", name: "sos de soia (tamari)" },
+          { qty: 30, unit: "g", name: "apă" },
+          { qty: 15, unit: "g", name: "vin de orez Shaoxing sau vin alb sec" },
+          { qty: 15, unit: "g", name: "oțet de orez" },
+          { qty: 21, unit: "g", name: "miere" },
+          { qty: 5, unit: "g", name: "ulei de susan prăjit" },
+          { qty: 5, unit: "g", name: "amidon de porumb (Maizena)" }
+        ]
+      },
+      {
+        group: "Pentru sotat",
+        items: [
+          { qty: 40, unit: "g", name: "ulei (avocado sau floarea-soarelui)" },
+          { qty: 150, unit: "g", name: "ardei gras roșu, tăiat bucăți (1 ardei)" },
+          { qty: 8, unit: "", name: "ardei iuți uscați, întregi" },
+          { qty: 20, unit: "g", name: "usturoi, tocat (4 căței)" },
+          { qty: 6, unit: "g", name: "ghimbir proaspăt, ras" },
+          { qty: 2, unit: "g", name: "piper de Sichuan măcinat" },
+          { qty: 60, unit: "g", name: "ceapă verde, tăiată (4 fire)" },
+          { qty: 70, unit: "g", name: "caju crud sau arahide" }
+        ]
+      },
+      {
+        group: "Pentru servire (opțional)",
+        items: [
+          { qty: null, unit: "", name: "orez fiert" }
+        ]
+      }
+    ],
+    steps: [
+      { title: "Marinează puiul", text: "Amestecă sosul de soia, vinul și amidonul pentru pui, toarnă peste bucățile de pui și amestecă. Lasă deoparte cât pregătești restul." },
+      { title: "Fă sosul", text: "Într-un bol mic, amestecă toate ingredientele pentru sos până se dizolvă amidonul. Lasă deoparte." },
+      { title: "Prăjește nucile", text: "Încinge wokul sau o tigaie mare pe foc mediu-mare, fără ulei. Prăjește caju sau arahidele cam 1 minut, amestecând continuu, până se rumenesc ușor. Scoate-le într-un bol." },
+      { title: "Gătește puiul", text: "Pune 2/3 din ulei în wok, pe foc mediu-mare. Sotează puiul 3–4 minute, până se pătrunde și se rumenește ușor. Scoate-l deoparte." },
+      { title: "Legumele și aromele", text: "Pune restul de ulei, dacă e nevoie. Sotează ardeiul gras, ardeii iuți uscați, usturoiul, ghimbirul și piperul de Sichuan 3–4 minute, pe foc mediu-mare." },
+      { title: "Combină", text: "Amestecă din nou sosul și toarnă-l în wok. Adaugă puiul și ceapa verde și sotează 1–2 minute, până sosul se îngroașă și devine lucios. Stinge focul, adaugă nucile și amestecă." },
+      { title: "Servește", text: "Servește simplu sau peste orez." }
+    ],
+    nutrition: {
+      kcal: 473, protein: 44, carbs: 17, fat: 24, fiber: 2,
+      note: "O porție fără orez, cu caju. Calculat de mine din ingrediente; sursa dădea 363 kcal și doar 19 g proteine, prea puțin pentru 170 g de piept de pui pe porție."
+    },
+    notes: [
+      "Ardeii iuți uscați se lasă întregi și nu se mănâncă. Pentru mai iute, taie 2–3 în două înainte de sotat.",
+      "Piperul de Sichuan se găsește la magazinele asiatice. Dacă nu ai, sau nu ai ardei iuți uscați, folosește fulgi de chili, sambal oelek sau cayenne.",
+      "Rețeta originală folosește sherry sec sau vin Shaoxing. Am pus vin alb sec ca alternativă de la noi (adaptarea mea).",
+      "Merge și cu pulpe de pui dezosate (mai fragede), cu arahide în loc de caju sau cu zahăr în loc de miere.",
+      "Se păstrează 3–4 zile la frigider sau 3 luni la congelator.",
+      "Gramajele pentru condimente și sosuri sunt aproximative (convertite din linguri și lingurițe)."
+    ]
+  },
+  {
     id: "costite-porc-bere-crockpot",
     category: "crockpot",
     title: "Costițe de porc în bere la Crockpot Express",
