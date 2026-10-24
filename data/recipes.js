@@ -8,6 +8,76 @@
 */
 window.RECIPES = [
   {
+    id: "souvlaki-pui-grecesc",
+    category: "pui",
+    title: "Souvlaki grecesc de pui cu tzatziki",
+    description: "Frigărui de piept de pui marinate în ulei de măsline, lămâie, usturoi și oregano, făcute pe tigaia grill sau la grătar, cu sos tzatziki.",
+    servings: 4,
+    servingsLabel: "porții",
+    prepMin: 30,
+    cookMin: 10,
+    tags: ["tigaie grill sau grătar", "marinare min. 30 min", "bogat în proteine"],
+    source: {
+      name: "Downshiftology",
+      url: "https://downshiftology.com/recipes/greek-chicken-souvlaki/"
+    },
+    ingredients: [
+      {
+        group: "Pui și marinadă",
+        items: [
+          { qty: 700, unit: "g", name: "piept de pui dezosat, fără piele (4 piepți medii), tăiat cuburi de ~4 cm" },
+          { qty: 70, unit: "g", name: "ulei de măsline" },
+          { qty: 30, unit: "g", name: "zeamă de lămâie" },
+          { qty: 15, unit: "g", name: "usturoi, tocat (3 căței)" },
+          { qty: 2, unit: "g", name: "oregano uscat" },
+          { qty: 0.5, unit: "g", name: "pătrunjel uscat" },
+          { qty: 4, unit: "g", name: "sare" },
+          { qty: 1, unit: "g", name: "piper negru proaspăt măcinat" }
+        ]
+      },
+      {
+        group: "Sos tzatziki",
+        items: [
+          { qty: 150, unit: "g", name: "castravete, curățat și ras (½ castravete mediu)" },
+          { qty: 180, unit: "g", name: "iaurt grecesc" },
+          { qty: 4, unit: "g", name: "mărar proaspăt, tocat" },
+          { qty: 5, unit: "g", name: "usturoi, tocat (1 cățel)" },
+          { qty: 13, unit: "g", name: "ulei de măsline extravirgin" },
+          { qty: 8, unit: "g", name: "zeamă de lămâie" },
+          { qty: 1.5, unit: "g", name: "sare" }
+        ]
+      },
+      {
+        group: "Pentru servire (opțional)",
+        items: [
+          { qty: null, unit: "", name: "lipii pita" },
+          { qty: null, unit: "", name: "castraveți și roșii feliate sau salată grecească" },
+          { qty: null, unit: "", name: "6 frigărui lungi (~30 cm), de metal sau lemn" }
+        ]
+      }
+    ],
+    steps: [
+      { title: "Marinează puiul", text: "Într-un bol mare, amestecă puiul cu uleiul, zeama de lămâie, usturoiul, oregano, pătrunjelul, sarea și piperul. Acoperă și ține la frigider minimum 30 de minute, maximum 24 de ore." },
+      { title: "Fă sosul tzatziki", text: "Stoarce bine castravetele ras printr-o sită fină sau un tifon, ca să iasă apa. Amestecă-l cu iaurtul, mărarul, usturoiul, uleiul, zeama de lămâie și sarea. Gustă și potrivește, apoi ține-l la rece până servești." },
+      { title: "Pune pe frigărui", text: "Înșiră puiul pe frigărui, cam 8–9 bucăți pe o frigăruie lungă, ca să iasă 6 frigărui. Dacă folosești frigărui de lemn, ține-le înainte 30 de minute în apă, ca să nu ardă." },
+      { title: "Încinge tigaia grill", text: "Încinge tigaia grill sau grătarul la foc mediu-mare și unge-l ușor cu ulei." },
+      { title: "Gătește", text: "Gătește frigăruile 3–4 minute pe fiecare parte, întorcându-le de 3–4 ori, în total 10–12 minute, până puiul e auriu și pătruns (75°C în interior)." },
+      { title: "Servește", text: "Servește frigăruile cu sos tzatziki, în pita sau alături de legume proaspete." }
+    ],
+    nutrition: {
+      kcal: 421, protein: 40, carbs: 5, fat: 27, fiber: 1,
+      note: "Puiul cu porția de tzatziki, fără pita. Doar puiul: 362 kcal, 36 g proteine. Valorile sunt preluate de la autoare, pentru pui și tzatziki separat."
+    },
+    notes: [
+      "Variantă la cuptor (adaptarea mea): 220°C (200°C cu ventilație), frigăruile pe o tavă cu hârtie de copt, 15–18 minute, întoarse la jumătate. La final, 2–3 minute la grill pentru culoare.",
+      "Nu marina mai mult de 24 de ore: zeama de lămâie face carnea moale și fărâmicioasă.",
+      "Rețeta originală nu dă greutatea puiului (spune „4 piepți”). Am pus 700 g, care se potrivesc cu valorile nutriționale ale autoarei.",
+      "Sosul tzatziki e jumătate din rețeta autoarei, cât pentru 4 porții. Se păstrează 4 zile la frigider.",
+      "Gramajele pentru condimente sunt aproximative (convertite din lingurițe și linguri).",
+      "Puiul gătit se păstrează 3–5 zile la frigider sau 3 luni la congelator. La reîncălzire, adaugă o lingură de apă ca să nu se usuce."
+    ]
+  },
+  {
     id: "risotto-ciuperci-crockpot",
     category: "crockpot",
     title: "Risotto cu ciuperci la Crockpot Express",
