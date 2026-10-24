@@ -10,57 +10,185 @@ window.RECIPES = [
   {
     id: "risotto-ciuperci-crockpot",
     category: "crockpot",
-    title: "Risotto cu ciuperci la crockpot",
-    description: "Risotto cremos cu ciuperci, fără amestecat continuu la aragaz: căleștii legumele câteva minute, iar slow cookerul face restul.",
+    title: "Risotto cu ciuperci la Crockpot Express",
+    description: "Risotto cremos cu ciuperci și parmezan, gata în aproximativ 25 de minute la presiune, fără amestecat continuu.",
     servings: 8,
     servingsLabel: "porții",
-    prepMin: 15,
-    cookMin: 165,
-    tags: ["slow cooker", "Low 2 h 45 min / High 1 h 15 min", "vegetarian cu supă de legume"],
+    prepMin: 10,
+    cookMin: 22,
+    tags: ["la presiune", "program Rice/Risotto 12 min", "garnitură"],
     source: {
-      name: "Moms with Crockpots",
-      url: "https://momswithcrockpots.com/crockpot-mushroom-risotto/"
+      name: "Simple and Seasonal",
+      url: "https://simpleandseasonal.com/crockpot-express-mushroom-risotto/"
     },
     ingredients: [
       {
         group: "Risotto",
         items: [
-          { qty: 40, unit: "g", name: "ulei de măsline" },
-          { qty: 225, unit: "g", name: "ciuperci, feliate" },
-          { qty: 50, unit: "g", name: "ceapă, tocată" },
-          { qty: 10, unit: "g", name: "usturoi, tocat (2 căței)" },
-          { qty: 350, unit: "g", name: "orez arborio" },
-          { qty: 950, unit: "g", name: "supă de pui (sau de legume)" },
-          { qty: 180, unit: "g", name: "vin alb sec (sau încă atâta supă)" },
-          { qty: 1, unit: "g", name: "piper negru" }
+          { qty: 15, unit: "g", name: "ulei de măsline" },
+          { qty: 75, unit: "g", name: "ceapă, tocată (½ ceapă medie)" },
+          { qty: 10, unit: "g", name: "usturoi, tocat (2–3 căței)" },
+          { qty: 450, unit: "g", name: "ciuperci brune (champignon brun), feliate" },
+          { qty: 400, unit: "g", name: "orez arborio" },
+          { qty: 950, unit: "g", name: "supă de pui" },
+          { qty: 90, unit: "g", name: "parmezan ras" }
         ]
       },
       {
-        group: "Pentru servire (opțional)",
+        group: "Pentru servire",
         items: [
-          { qty: null, unit: "", name: "parmezan ras" },
           { qty: null, unit: "", name: "pătrunjel proaspăt, tocat" }
         ]
       }
     ],
     steps: [
-      { title: "Călește legumele", text: "Într-o tigaie mare, pe foc mediu, încinge uleiul și călește ciupercile, ceapa și usturoiul 5–7 minute, amestecând din când în când, până se rumenesc ușor ciupercile și se evaporă lichidul." },
-      { title: "Adaugă orezul", text: "Pune orezul în tigaie și mai amestecă un minut, ca să se îmbrace în ulei." },
-      { title: "Mută în crockpot", text: "Răstoarnă amestecul în slow cooker și adaugă supa, vinul și piperul. Amestecă o dată." },
-      { title: "Gătește", text: "Pune capacul și gătește pe Low aproximativ 2 ore și 45 de minute sau pe High aproximativ 1 oră și 15 minute, până orezul e moale. Nu ridica des capacul, pentru că se pierde căldura." },
-      { title: "Servește", text: "Amestecă ușor, presară parmezan și pătrunjel dacă vrei și servește imediat. Risotto se îngroașă repede pe măsură ce stă." }
+      { title: "Încinge uleiul", text: "Scoate capacul. Selectează Brown/Saute, pune uleiul și lasă-l să se încălzească 1–2 minute." },
+      { title: "Călește ceapa și usturoiul", text: "Adaugă ceapa și usturoiul și călește-le 1 minut." },
+      { title: "Adaugă ciupercile", text: "Pune ciupercile și gătește-le aproximativ 5 minute, amestecând des, până se înmoaie." },
+      { title: "Orezul și supa", text: "Apasă Start/Stop ca să oprești funcția de sote. Adaugă orezul și supa și amestecă bine, ca să nu rămână orez lipit de fund." },
+      { title: "Gătește la presiune", text: "Pune și blochează capacul, închide supapa și selectează programul Rice/Risotto, 12 minute. Apasă Start/Stop." },
+      { title: "Eliberează presiunea", text: "La final, lasă presiunea să scadă singură 5 minute, apoi deschide supapa ca să iasă restul aburului." },
+      { title: "Servește", text: "Deschide capacul, adaugă parmezanul și amestecă până devine cremos. Presară pătrunjel și servește cald." }
     ],
     nutrition: {
-      kcal: 239, protein: 5, carbs: 37, fat: 6, fiber: 1,
-      note: "Fără parmezan. 10 g de parmezan adaugă cam 40 kcal și 3,5 g proteine. Caloriile vin de la sursă, macro-urile le-am calculat eu din ingrediente."
+      kcal: 255, protein: 9, carbs: 43, fat: 4, fiber: 2,
+      note: "O porție de garnitură (o cană, cam 250 ml), cu parmezan."
     },
     notes: [
-      "Rețeta e pentru un crockpot de aproximativ 4 litri.",
-      "Cele 8 porții sunt porții de garnitură. Ca fel principal, împarte în 4–5 porții.",
-      "Dacă ai un slow cooker cu funcție de sote, poți căli legumele direct în vasul lui.",
-      "Supa din cuburi sau din comerț e deja sărată, așa că gustă înainte să mai adaugi sare.",
-      "Pentru variantă vegetariană folosește supă de legume. Fără lactate: sari peste parmezan.",
-      "Se păstrează până la 5 zile la frigider, într-o cutie închisă. La reîncălzire adaugă un strop de apă sau supă."
+      "Cele 8 porții sunt de garnitură. Ca fel principal ies 4–5 porții, sau adaugă pui gătit, cum sugerează autoarea.",
+      "Dacă aparatul tău nu are program Rice/Risotto, folosește presiune mare 6–7 minute (adaptarea mea, nu e în rețeta originală).",
+      "La jumătate de rețetă timpul rămâne același, doar că aparatul ajunge mai repede la presiune.",
+      "Supa din comerț sau din cuburi e deja sărată, iar parmezanul la fel, așa că gustă înainte să mai adaugi sare.",
+      "Se păstrează 3–4 zile la frigider. La reîncălzire adaugă un strop de apă sau supă, pentru că se îngroașă."
+    ]
+  },
+  {
+    id: "piept-curcan-slow-cooker",
+    category: "crockpot",
+    title: "Piept de curcan suculent la slow cooker",
+    description: "Piept de curcan cu condimente, gătit încet pe Low în propriul suc și rumenit la grill la final, cu sos gravy din zeama rămasă.",
+    servings: 8,
+    servingsLabel: "porții",
+    prepMin: 15,
+    cookMin: 360,
+    tags: ["slow cooker", "doar pe Low", "sărbători"],
+    source: {
+      name: "RecipeTin Eats",
+      url: "https://www.recipetineats.com/juicy-slow-cooker-turkey-breast/"
+    },
+    ingredients: [
+      {
+        group: "Curcan",
+        items: [
+          { qty: 2000, unit: "g", name: "piept de curcan cu piele (cu sau fără os), dezghețat" },
+          { qty: 1, unit: "", name: "căpățână de usturoi, tăiată în două pe orizontală" },
+          { qty: 1, unit: "", name: "ceapă, nedecojită, tăiată în două" },
+          { qty: 5, unit: "", name: "crenguțe de cimbru proaspăt (sau 2 g cimbru uscat)" }
+        ]
+      },
+      {
+        group: "Condimente (pastă)",
+        items: [
+          { qty: 4.5, unit: "g", name: "usturoi granulat" },
+          { qty: 4, unit: "g", name: "ceapă granulată" },
+          { qty: 2.5, unit: "g", name: "boia dulce" },
+          { qty: 10, unit: "g", name: "sare" },
+          { qty: 1, unit: "g", name: "piper negru măcinat" },
+          { qty: 25, unit: "g", name: "ulei de măsline" }
+        ]
+      },
+      {
+        group: "Sos gravy",
+        items: [
+          { qty: null, unit: "", name: "zeama rămasă în slow cooker, completată cu supă de pui până la 500 ml" },
+          { qty: 50, unit: "g", name: "unt" },
+          { qty: 35, unit: "g", name: "făină albă" },
+          { qty: null, unit: "", name: "sare și piper, după gust" }
+        ]
+      }
+    ],
+    steps: [
+      { title: "Pasta de condimente", text: "Amestecă usturoiul granulat, ceapa granulată, boiaua, sarea, piperul și uleiul într-o pastă." },
+      { title: "Unge curcanul", text: "Șterge bine curcanul cu prosoape de hârtie, apoi unge-l peste tot cu pasta. Păstrează puțină pastă pentru partea de dedesubt." },
+      { title: "Așază în slow cooker", text: "Pune usturoiul, ceapa și cimbrul pe fundul vasului, apoi așază curcanul deasupra, cu pielea în sus, ca să nu stea în lichid. Nu adăuga apă: curcanul se gătește în propriul suc." },
+      { title: "Gătește pe Low", text: "Gătește pe Low aproximativ 6 ore, până când partea cea mai groasă are 75°C. Verifică temperatura de la ora 5. Nu folosi High, pentru că pieptul se usucă." },
+      { title: "Lasă să se odihnească", text: "Scoate curcanul din vas (nu-l lăsa pe Warm) și lasă-l să se odihnească 20 de minute." },
+      { title: "Rumenește pielea", text: "Încinge grillul cuptorului la maxim și pune raftul la aproximativ 30 cm de sursa de căldură. Ține curcanul la grill 3–5 minute, până devine pielea crocantă. Stai lângă el, se rumenește foarte repede." },
+      { title: "Sosul gravy", text: "Strecoară zeama din vas, strivind ceapa și usturoiul ca să lase gust. Completează cu supă până la 500 ml. Topește untul într-o cratiță, adaugă făina și amestecă un minut. Toarnă puțină zeamă (cam 125 ml) și amestecă până faci o pastă, apoi adaugă restul treptat, amestecând continuu. Fierbe până se îngroașă (se mai îngroașă și la răcire) și potrivește de sare și piper." },
+      { title: "Servește", text: "Taie curcanul felii și servește-l cu sosul gravy." }
+    ],
+    nutrition: {
+      kcal: 323, protein: 45, carbs: 3, fat: 14,
+      note: "O porție de aproximativ 160 g, cu sos gravy."
+    },
+    notes: [
+      "Timp pe Low în funcție de greutate (verifică temperatura de la începutul intervalului): 1 kg – 4–5 h; 2–3 kg – 5–6 h; 4 kg – 6–7 h; 5 kg – 8–9 h.",
+      "Ținta e 75°C în partea cea mai groasă. Un termometru de bucătărie face diferența dintre suculent și uscat.",
+      "Dacă pieptul e deja saramurat sau condimentat (scrie pe etichetă), pune doar jumătate din sare sau sari peste pastă.",
+      "Rețeta nu e potrivită pentru gătit la presiune, doar pentru slow cooker.",
+      "Gramajele pentru condimente sunt aproximative (convertite din lingurițe).",
+      "Se poate face cu o zi înainte: gătește-l fără rumenire, ține-l peste noapte la frigider, încălzește-l acoperit și abia apoi dă-l la grill."
+    ]
+  },
+  {
+    id: "pulled-chicken-presiune",
+    category: "crockpot",
+    title: "Pulled chicken cu sos BBQ la presiune",
+    description: "Piept de pui fiert la presiune cu cola, ardei și ceapă, apoi destrămat și amestecat cu sos BBQ. Bun în chifle sau la meal prep.",
+    servings: 8,
+    servingsLabel: "porții",
+    prepMin: 10,
+    cookMin: 25,
+    tags: ["la presiune", "presiune mare 15 min", "meal prep"],
+    source: {
+      name: "Dear Crissy",
+      url: "https://dearcrissy.com/pressure-cooker-pulled-chicken/"
+    },
+    ingredients: [
+      {
+        group: "Pui",
+        items: [
+          { qty: 1000, unit: "g", name: "piept de pui dezosat, fără piele (cam 3 piepți mari)" },
+          { qty: 150, unit: "g", name: "ceapă, tăiată cubulețe (1 ceapă)" },
+          { qty: 10, unit: "g", name: "usturoi, tocat (2 căței)" },
+          { qty: 300, unit: "g", name: "ardei gras verde, tăiat cubulețe (2 ardei)" },
+          { qty: 330, unit: "g", name: "cola (1 doză)" },
+          { qty: 50, unit: "g", name: "zahăr" },
+          { qty: 2.5, unit: "g", name: "condiment chili (amestec, nu chili pur)" },
+          { qty: 3, unit: "g", name: "sare" }
+        ]
+      },
+      {
+        group: "Sos",
+        items: [
+          { qty: 510, unit: "g", name: "sos BBQ" }
+        ]
+      },
+      {
+        group: "Pentru servire",
+        items: [
+          { qty: null, unit: "", name: "chifle moi pentru burger" }
+        ]
+      }
+    ],
+    steps: [
+      { title: "Pune totul în vas", text: "Pune în vasul aparatului puiul, condimentul chili, zahărul, sarea, ceapa, usturoiul și ardeiul, apoi toarnă cola." },
+      { title: "Gătește la presiune", text: "Pune și blochează capacul, închide supapa și gătește la presiune mare (High) 15 minute." },
+      { title: "Eliberează presiunea", text: "Când sună, deschide supapa ca să iasă aburul (eliberare rapidă), apoi scoate capacul." },
+      { title: "Scurge și destramă", text: "Scoate cu grijă vasul interior (e fierbinte) și scurge lichidul. Pune puiul pe un platou și destramă-l cu două furculițe." },
+      { title: "Adaugă sosul BBQ", text: "Pune puiul înapoi în vas, adaugă sosul BBQ și amestecă bine. Dacă s-a răcit cât l-ai destrămat, încălzește-l 2–3 minute pe funcția Saute/Brown." },
+      { title: "Servește", text: "Servește cald, în chifle sau alături de legume la abur, cartofi copți sau orez." }
+    ],
+    nutrition: {
+      kcal: 324, protein: 31, carbs: 39, fat: 4, fiber: 1,
+      note: "O porție din 8, fără chiflă. Conține 33 g zahăr pe porție, mai ales din cola și sosul BBQ."
+    },
+    notes: [
+      "Dacă folosești chili pur, pune doar jumătate, e mult mai iute decât amestecul american „chili powder”.",
+      "Ca să reduci zahărul, poți sări peste cei 50 g de zahăr (cam 25 kcal mai puțin pe porție) sau poți folosi cola zero.",
+      "Pentru variantă picantă, adaugă un ardei iute tocat odată cu ceilalți ardei.",
+      "Merge și cu pulpe dezosate, rămân și mai suculente.",
+      "Bun pentru meal prep: se păstrează 3–4 zile la frigider sau până la 3 luni la congelator."
     ]
   },
   {
