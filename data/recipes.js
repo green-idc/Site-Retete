@@ -8,6 +8,70 @@
 */
 window.RECIPES = [
   {
+    id: "pui-miere-usturoi",
+    category: "pui",
+    title: "Pui cu sos de miere și usturoi",
+    description: "Bucăți crocante de pulpă de pui, trase prin sos lipicios de miere, soia și usturoi. Gata în aproximativ 30 de minute, la cuptor sau în tigaie.",
+    servings: 3,
+    servingsLabel: "porții",
+    prepMin: 10,
+    cookMin: 20,
+    tags: ["cuptor sau tigaie", "rapid", "bogat în proteine"],
+    ingredients: [
+      {
+        group: "Pui",
+        items: [
+          { qty: 900, unit: "g", name: "pulpe de pui dezosate, fără piele, tăiate cuburi de ~2,5 cm" },
+          { qty: 8, unit: "g", name: "amidon de porumb (Maizena)" },
+          { qty: 3, unit: "g", name: "usturoi granulat" },
+          { qty: 2.5, unit: "g", name: "boia dulce" },
+          { qty: 3, unit: "g", name: "sare (sau după gust)" },
+          { qty: 1, unit: "g", name: "piper (sau după gust)" },
+          { qty: 10, unit: "g", name: "ulei spray (la cuptor) sau 20 g ulei (la tigaie)" }
+        ]
+      },
+      {
+        group: "Sos de miere și usturoi",
+        items: [
+          { qty: 85, unit: "g", name: "miere" },
+          { qty: 50, unit: "g", name: "sos de soia cu conținut redus de sare" },
+          { qty: 20, unit: "g", name: "usturoi proaspăt, tocat (4 căței)" },
+          { qty: 15, unit: "g", name: "oțet de orez" },
+          { qty: 5, unit: "g", name: "ulei de susan" },
+          { qty: 3, unit: "g", name: "amidon de porumb (Maizena)" },
+          { qty: 60, unit: "g", name: "apă" },
+          { qty: 1, unit: "g", name: "fulgi de chili (opțional)" }
+        ]
+      },
+      {
+        group: "Pentru servire",
+        items: [
+          { qty: null, unit: "", name: "orez jasmin" },
+          { qty: null, unit: "", name: "ceapă verde, tăiată rondele" },
+          { qty: null, unit: "", name: "semințe de susan" }
+        ]
+      }
+    ],
+    steps: [
+      { title: "Pregătește puiul", text: "Pune cuburile de pui într-un bol, presară amidonul, usturoiul granulat, boiaua, sarea și piperul, apoi amestecă până se acoperă toate bucățile uniform." },
+      { title: "Gătește puiul", text: "La cuptor: încinge cuptorul la 220°C (200°C cu ventilație). Întinde puiul într-un singur strat pe o tavă cu hârtie de copt, dă-l cu ulei spray și coace 20–22 de minute, întorcând bucățile la jumătate. La final, 2–3 minute la grill pentru crustă. În tigaie: încinge uleiul pe foc mediu-mare și prăjește puiul în 2 tranșe, 7–8 minute fiecare, întorcând des, până e auriu și pătruns. Nu aglomera tigaia, altfel puiul fierbe în loc să se rumenească." },
+      { title: "Fă sosul", text: "Cât se gătește puiul, amestecă într-o crăticioară toate ingredientele pentru sos, până se dizolvă amidonul. Fierbe la foc mic 2–3 minute, amestecând, până se îngroașă și devine lucios." },
+      { title: "Combină", text: "Pune puiul fierbinte într-un bol mare, toarnă jumătate din sos și amestecă până se îmbracă bine. Păstrează restul de sos pentru servire." },
+      { title: "Servește", text: "Servește cu orez jasmin, toarnă deasupra sosul rămas și presară ceapă verde și semințe de susan." }
+    ],
+    nutrition: {
+      kcal: 442, protein: 59, carbs: 15, fat: 13,
+      note: "O porție de pui cu sos, fără orez. Varianta în tigaie adaugă cam 60 kcal pe porție."
+    },
+    notes: [
+      "Rețeta originală era pentru air fryer (200°C, 13–15 minute). Timpii pentru cuptor și tigaie sunt adaptați.",
+      "Am adăugat fierberea sosului: amidonul și usturoiul crud au nevoie de 2–3 minute pe foc ca sosul să se lege.",
+      "Puiul e gata când are 75°C în interior sau nu mai e roz la mijloc.",
+      "Gramajele pentru condimente sunt aproximative (convertite din lingurițe și linguri).",
+      "Valorile nutriționale vin de la autorul rețetei originale."
+    ]
+  },
+  {
     id: "bageli-iaurt-grecesc",
     category: "paine-aluaturi",
     title: "Bageli cu iaurt grecesc",
