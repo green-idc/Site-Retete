@@ -17,7 +17,7 @@ data/recipes.js   toate rețetele
 Deschide `data/recipes.js`, copiază o rețetă existentă și modifică-i câmpurile.
 
 - `id` – unic, fără spații și diacritice (ex. `ciorba-de-perisoare`)
-- `category` – una dintre: `pui`, `vita`, `porc`, `deserturi`, `deserturi-healthy`
+- `category` – una dintre: `pui`, `vita`, `porc`, `paine-aluaturi`, `crockpot`, `deserturi`, `deserturi-healthy`
 - `servings` – numărul de porții pentru care sunt cantitățile; site-ul le scalează automat
 - `ingredients` – grupate (ex. „Compoziție”, „Glazură”); `qty: null` pentru „după gust”
 

@@ -1,12 +1,68 @@
 /*
   Rețetele site-ului.
   Pentru o rețetă nouă, copiază un obiect existent, schimbă "id" (unic, fără spații)
-  și pune "category" pe una dintre: pui, vita, porc, paine-aluaturi, deserturi, deserturi-healthy.
+  și pune "category" pe una dintre: pui, vita, porc, paine-aluaturi, crockpot, deserturi, deserturi-healthy.
   Cantitățile (qty) se scalează automat când schimbi numărul de porții.
   Dacă un ingredient nu are cantitate (ex. „după gust”), lasă qty: null.
   "nutrition" = valori pe o porție (kcal, proteine, carbohidrați, grăsimi, fibre în grame).
 */
 window.RECIPES = [
+  {
+    id: "risotto-ciuperci-crockpot",
+    category: "crockpot",
+    title: "Risotto cu ciuperci la crockpot",
+    description: "Risotto cremos cu ciuperci, fără amestecat continuu la aragaz: căleștii legumele câteva minute, iar slow cookerul face restul.",
+    servings: 8,
+    servingsLabel: "porții",
+    prepMin: 15,
+    cookMin: 165,
+    tags: ["slow cooker", "Low 2 h 45 min / High 1 h 15 min", "vegetarian cu supă de legume"],
+    source: {
+      name: "Moms with Crockpots",
+      url: "https://momswithcrockpots.com/crockpot-mushroom-risotto/"
+    },
+    ingredients: [
+      {
+        group: "Risotto",
+        items: [
+          { qty: 40, unit: "g", name: "ulei de măsline" },
+          { qty: 225, unit: "g", name: "ciuperci, feliate" },
+          { qty: 50, unit: "g", name: "ceapă, tocată" },
+          { qty: 10, unit: "g", name: "usturoi, tocat (2 căței)" },
+          { qty: 350, unit: "g", name: "orez arborio" },
+          { qty: 950, unit: "g", name: "supă de pui (sau de legume)" },
+          { qty: 180, unit: "g", name: "vin alb sec (sau încă atâta supă)" },
+          { qty: 1, unit: "g", name: "piper negru" }
+        ]
+      },
+      {
+        group: "Pentru servire (opțional)",
+        items: [
+          { qty: null, unit: "", name: "parmezan ras" },
+          { qty: null, unit: "", name: "pătrunjel proaspăt, tocat" }
+        ]
+      }
+    ],
+    steps: [
+      { title: "Călește legumele", text: "Într-o tigaie mare, pe foc mediu, încinge uleiul și călește ciupercile, ceapa și usturoiul 5–7 minute, amestecând din când în când, până se rumenesc ușor ciupercile și se evaporă lichidul." },
+      { title: "Adaugă orezul", text: "Pune orezul în tigaie și mai amestecă un minut, ca să se îmbrace în ulei." },
+      { title: "Mută în crockpot", text: "Răstoarnă amestecul în slow cooker și adaugă supa, vinul și piperul. Amestecă o dată." },
+      { title: "Gătește", text: "Pune capacul și gătește pe Low aproximativ 2 ore și 45 de minute sau pe High aproximativ 1 oră și 15 minute, până orezul e moale. Nu ridica des capacul, pentru că se pierde căldura." },
+      { title: "Servește", text: "Amestecă ușor, presară parmezan și pătrunjel dacă vrei și servește imediat. Risotto se îngroașă repede pe măsură ce stă." }
+    ],
+    nutrition: {
+      kcal: 239, protein: 5, carbs: 37, fat: 6, fiber: 1,
+      note: "Fără parmezan. 10 g de parmezan adaugă cam 40 kcal și 3,5 g proteine. Caloriile vin de la sursă, macro-urile le-am calculat eu din ingrediente."
+    },
+    notes: [
+      "Rețeta e pentru un crockpot de aproximativ 4 litri.",
+      "Cele 8 porții sunt porții de garnitură. Ca fel principal, împarte în 4–5 porții.",
+      "Dacă ai un slow cooker cu funcție de sote, poți căli legumele direct în vasul lui.",
+      "Supa din cuburi sau din comerț e deja sărată, așa că gustă înainte să mai adaugi sare.",
+      "Pentru variantă vegetariană folosește supă de legume. Fără lactate: sari peste parmezan.",
+      "Se păstrează până la 5 zile la frigider, într-o cutie închisă. La reîncălzire adaugă un strop de apă sau supă."
+    ]
+  },
   {
     id: "pui-miere-usturoi",
     category: "pui",
