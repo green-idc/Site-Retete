@@ -8,6 +8,77 @@
 */
 window.RECIPES = [
   {
+    id: "crispy-pui-panko-cuptor",
+    category: "pui",
+    title: "Crispy de pui crocant la cuptor",
+    description: "Fâșii de piept de pui date printr-un aluat rapid cu muștar și maioneză, apoi prin panko prăjit în prealabil, ca să iasă aurii și crocante fără prăjire în ulei.",
+    servings: 3,
+    servingsLabel: "porții",
+    prepMin: 15,
+    cookMin: 20,
+    tags: ["la cuptor", "fără prăjire", "bogat în proteine"],
+    source: {
+      name: "RecipeTin Eats",
+      url: "https://www.recipetineats.com/truly-golden-crunchy-baked-chicken-tenders-less-mess/"
+    },
+    ingredients: [
+      {
+        group: "Crustă",
+        items: [
+          { qty: 75, unit: "g", name: "pesmet panko" },
+          { qty: 10, unit: "g", name: "ulei spray (aprox., pentru panko și pui)" }
+        ]
+      },
+      {
+        group: "Aluat",
+        items: [
+          { qty: 1, unit: "", name: "ou" },
+          { qty: 15, unit: "g", name: "maioneză" },
+          { qty: 22, unit: "g", name: "muștar Dijon (sau alt muștar)" },
+          { qty: 16, unit: "g", name: "făină albă 000" },
+          { qty: 3, unit: "g", name: "sare" },
+          { qty: null, unit: "", name: "piper negru, după gust" }
+        ]
+      },
+      {
+        group: "Pui",
+        items: [
+          { qty: 500, unit: "g", name: "file de piept de pui (sau piept tăiat fâșii de 1,5 cm grosime)" }
+        ]
+      },
+      {
+        group: "Sos de miere cu muștar (opțional)",
+        items: [
+          { qty: 75, unit: "g", name: "maioneză" },
+          { qty: 30, unit: "g", name: "muștar Dijon" },
+          { qty: 42, unit: "g", name: "miere" },
+          { qty: 7, unit: "g", name: "zeamă de lămâie" },
+          { qty: null, unit: "", name: "sare și piper, după gust" }
+        ]
+      }
+    ],
+    steps: [
+      { title: "Încinge cuptorul", text: "Pornește cuptorul la 200°C." },
+      { title: "Prăjește pesmetul", text: "Întinde panko pe o tavă și dă-l ușor cu ulei spray, ținând sprayul de sus, ca să nu împrăștii pesmetul. Coace 3–5 minute, până se rumenește ușor, apoi mută-l într-un bol." },
+      { title: "Opțional: grătarul", text: "Pentru o coacere mai uniformă, pune un grătar de metal peste tava în care vei coace puiul." },
+      { title: "Aluatul", text: "Bate cu o furculiță oul, făina, maioneza, muștarul, sarea și piperul. Pune fâșiile de pui și amestecă până se acoperă toate." },
+      { title: "Pane puiul", text: "Ia fiecare fâșie cu un clește, apas-o în panko și presară pesmet și deasupra. Așaz-o pe tavă." },
+      { title: "Coace", text: "Dă bucățile ușor cu ulei spray și, dacă vrei, cu un praf de sare. Coace 15 minute (până la 20 pentru bucăți foarte mari). Nu le ține mai mult, altfel se usucă." },
+      { title: "Sosul și servirea", text: "Amestecă ingredientele pentru sosul de miere cu muștar. Servește puiul imediat, cu sosul alături și puțin pătrunjel, dacă vrei." }
+    ],
+    nutrition: {
+      kcal: 416, protein: 42, carbs: 29, fat: 12, fiber: 1,
+      note: "O porție din 3, fără sos. Sosul de miere cu muștar adaugă cam 230 kcal pe porție."
+    },
+    notes: [
+      "Panko (pesmet japonez) e mai grosier decât pesmetul obișnuit și iese mult mai crocant. Îl găsești la raionul asiatic.",
+      "Rețeta dă panko doar în căni. L-am convertit la 75 g (adaptarea mea).",
+      "Se poate pregăti dinainte: puiul trecut prin aluat ține 2 zile la frigider, iar panko prăjit se păstrează separat. Pane-l doar înainte de copt. Puiul crud nu se congelează bine.",
+      "Reîncălzire: 3–5 minute în cuptor la 200°C.",
+      "Gramajele pentru sare, muștar, făină și maioneză sunt aproximative (convertite din linguri și lingurițe)."
+    ]
+  },
+  {
     id: "chow-mein-pui",
     category: "pui",
     title: "Chow mein cu pui în 20 de minute",
