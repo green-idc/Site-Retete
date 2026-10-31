@@ -8,6 +8,61 @@
 */
 window.RECIPES = [
   {
+    id: "brownies-branza-cottage",
+    category: "deserturi-healthy",
+    title: "Brownies cu brânză cottage",
+    description: "Brownies umede și ciocolatoase, îndulcite cu banane și sirop de arțar, cu brânză cottage în loc de unt. Aproximativ 100 kcal bucata.",
+    servings: 16,
+    servingsLabel: "pătrate",
+    prepMin: 5,
+    cookMin: 24,
+    tags: ["la cuptor", "fără unt", "tavă 20 × 20 cm"],
+    source: {
+      name: "The Cooking Foodie",
+      url: "https://thecookingfoodie.com/recipe/cottage-cheese-brownies/"
+    },
+    ingredients: [
+      {
+        group: "Compoziție",
+        items: [
+          { qty: 225, unit: "g", name: "brânză cottage (ideal 4% grăsime)" },
+          { qty: 105, unit: "g", name: "sirop de arțar (sau alt îndulcitor lichid)" },
+          { qty: 200, unit: "g", name: "banane foarte coapte (2 banane medii)" },
+          { qty: 70, unit: "g", name: "ciocolată neagră 70%" },
+          { qty: 2, unit: "", name: "ouă mari" },
+          { qty: 50, unit: "g", name: "făină albă 000" },
+          { qty: 30, unit: "g", name: "cacao neîndulcită" },
+          { qty: 2, unit: "g", name: "praf de copt" },
+          { qty: 1.5, unit: "g", name: "sare" },
+          { qty: 40, unit: "g", name: "nuci, tocate grosier (opțional)" }
+        ]
+      }
+    ],
+    steps: [
+      { title: "Încinge cuptorul", text: "Pornește cuptorul la 180°C și tapetează o tavă pătrată de 20 × 20 cm cu hârtie de copt." },
+      { title: "Mixează baza", text: "Pune brânza cottage, siropul de arțar și bananele în blender și mixează până devine o cremă complet fină. Mut-o într-un bol mare." },
+      { title: "Topește ciocolata", text: "Topește ciocolata ușor, la microunde sau pe baie de aburi. Las-o să se răcească puțin, apoi amestec-o în cremă." },
+      { title: "Ouăle și ingredientele uscate", text: "Adaugă ouăle și amestecă. Pune făina, cacaua, praful de copt și sarea și amestecă doar până se omogenizează, fără să insiști." },
+      { title: "Toarnă în tavă", text: "Încorporează nucile, dacă le folosești, și toarnă compoziția în tavă." },
+      { title: "Coace", text: "Coace 20–24 de minute, până marginile se întăresc și mijlocul e încă puțin moale. O scobitoare înfiptă la mijloc trebuie să iasă cu firimituri umede, nu cu aluat crud." },
+      { title: "Lasă la răcit", text: "Lasă brownies să se răcească complet în tavă înainte să le tai în 16 pătrate. Pe măsură ce se răcesc devin mai dense și mai ciocolatoase." }
+    ],
+    nutrition: {
+      kcal: 101, protein: 3, carbs: 12, fat: 5, fiber: 2,
+      note: "Un pătrat din 16, cu nuci. Valorile sunt ale sursei; calculul meu din ingrediente iese foarte apropiat (cam 110 kcal și 4 g proteine)."
+    },
+    notes: [
+      "Sursa nu spune dacă temperatura de 180°C e pentru ventilație sau nu. Am considerat-o pentru cuptor fără ventilație (adaptarea mea).",
+      "Gustul depinde mult de ciocolată. Cu ciocolată cu lapte sau semidulce ies mai dulci.",
+      "Pentru mai dulci, adaugă 25–50 g zahăr sau un îndulcitor fără calorii (stevia, eritritol).",
+      "Bananele trebuie să fie foarte coapte. Le poți înlocui cu 120 g piure de mere, dar gustul se schimbă puțin.",
+      "Pentru mai multe proteine, înlocuiește 15–20 g de făină cu pudră proteică de ciocolată sau vanilie.",
+      "Merge și cu făină de ovăz sau integrală. Dacă folosești un amestec fără gluten, lasă compoziția să stea 30 de minute înainte de copt.",
+      "Păstrare: 1 zi la temperatura camerei, 5 zile la frigider (scoate-le cu 10–15 minute înainte de servire) sau 2 luni la congelator, tăiate bucăți.",
+      "Gramajele pentru praf de copt și sare sunt aproximative (convertite din lingurițe)."
+    ]
+  },
+  {
     id: "crispy-pui-panko-cuptor",
     category: "pui",
     title: "Crispy de pui crocant la cuptor",
