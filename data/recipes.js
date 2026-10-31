@@ -8,6 +8,74 @@
 */
 window.RECIPES = [
   {
+    id: "burrito-vita",
+    category: "vita",
+    title: "Burrito cu carne tocată de vită",
+    description: "Lipii mari umplute cu carne de vită condimentată cu boia și chimion, orez, fasole, porumb, legume și cașcaval, rumenite apoi în tigaie.",
+    servings: 5,
+    servingsLabel: "burritos",
+    prepMin: 10,
+    cookMin: 20,
+    tags: ["în tigaie", "fel complet", "se poate congela"],
+    source: {
+      name: "The Cooking Foodie",
+      url: "https://thecookingfoodie.com/recipe/best-beef-burrito-recipe/"
+    },
+    ingredients: [
+      {
+        group: "Carne",
+        items: [
+          { qty: 27, unit: "g", name: "ulei" },
+          { qty: 110, unit: "g", name: "ceapă, tocată (1 ceapă)" },
+          { qty: 10, unit: "g", name: "usturoi, tocat (2 căței)" },
+          { qty: 450, unit: "g", name: "carne tocată de vită (ideal 20% grăsime)" },
+          { qty: 2.5, unit: "g", name: "boia dulce" },
+          { qty: 1, unit: "g", name: "oregano uscat" },
+          { qty: 2, unit: "g", name: "chimion" },
+          { qty: 1, unit: "g", name: "fulgi de chili (opțional)" },
+          { qty: 4, unit: "g", name: "sare (sau după gust)" },
+          { qty: 1, unit: "g", name: "piper (sau după gust)" },
+          { qty: 32, unit: "g", name: "pastă de tomate" },
+          { qty: 60, unit: "g", name: "supă de vită sau apă" }
+        ]
+      },
+      {
+        group: "Pentru asamblare",
+        items: [
+          { qty: 5, unit: "", name: "lipii tortilla mari (pentru burrito)" },
+          { qty: 150, unit: "g", name: "orez fiert (cam 30 g pe burrito)" },
+          { qty: 240, unit: "g", name: "fasole roșie sau neagră din conservă, scursă" },
+          { qty: 150, unit: "g", name: "porumb dulce, scurs" },
+          { qty: 75, unit: "g", name: "salată verde, tocată" },
+          { qty: 150, unit: "g", name: "roșii, tăiate cubulețe" },
+          { qty: 100, unit: "g", name: "cheddar sau alt cașcaval, ras" },
+          { qty: null, unit: "", name: "salsa și smântână (opțional)" }
+        ]
+      }
+    ],
+    steps: [
+      { title: "Călește ceapa", text: "Încinge uleiul într-o tigaie mare pe foc mediu și călește ceapa 5–6 minute, până se rumenește." },
+      { title: "Usturoiul și carnea", text: "Adaugă usturoiul și mai călește 1 minut. Dă focul mare, pune carnea și rumenește-o cam 5 minute, sfărâmând-o cu lingura. Dacă lasă multă grăsime, scurge o parte." },
+      { title: "Condimentează", text: "Pune boiaua, oregano, chimionul, fulgii de chili, sarea și piperul. Amestecă pasta de tomate, apoi toarnă supa sau apa și mai gătește 3–4 minute, până se îngroașă puțin. Ia tigaia de pe foc." },
+      { title: "Încălzește lipiile", text: "Încălzește lipiile câteva secunde în tigaie sau la microunde, ca să se ruleze fără să se rupă." },
+      { title: "Umple și rulează", text: "Pe fiecare lipie pune întâi orezul și fasolea, apoi 3–4 linguri de carne, porumb, salată, roșii și cașcaval. Nu le umple prea tare. Pliază marginile laterale spre interior și rulează strâns." },
+      { title: "Rumenește", text: "Încinge o tigaie curată, fără ulei, pe foc mare. Rumenește fiecare burrito 1–2 minute pe fiecare parte, începând cu partea cu îmbinarea în jos, ca să se lipească. Servește cald, cu salsa sau smântână." }
+    ],
+    nutrition: {
+      kcal: 715, protein: 33, carbs: 65, fat: 36, fiber: 7,
+      note: "Un burrito complet: lipie, carne, orez, fasole, porumb, legume și 20 g cașcaval, fără salsa și smântână. Calculat de mine; sursa dădea 465 kcal și 19 g carbohidrați, ceea ce nu poate include lipia."
+    },
+    notes: [
+      "Rețeta originală nu dă cantități pentru fasole, porumb, salată, roșii și cașcaval. Cantitățile sunt ale mele, socotite pentru 5 burritos (adaptarea mea).",
+      "Sarea și piperul sunt „după gust” în original. Am pus 4 g sare, cam 1% din carne, ca punct de plecare.",
+      "Timpul de 1–2 minute pe fiecare parte la rumenire e adaptarea mea; rețeta spune doar „până se rumenesc”.",
+      "Variantă mai ușoară: carne tocată de curcan sau de pui și lipii integrale.",
+      "Pentru mai iute, adaugă ardei jalapeño tocat sau sos iute în carne.",
+      "Carnea gătită se păstrează 2 zile la frigider. Burritos asamblate, nerumenite, se pot congela 2 luni, învelite strâns în folie, dar fără salată și roșii, care nu se congelează bine.",
+      "Gramajele pentru condimente sunt aproximative (convertite din lingurițe)."
+    ]
+  },
+  {
     id: "brownies-branza-cottage",
     category: "deserturi-healthy",
     title: "Brownies cu brânză cottage",
